@@ -1,0 +1,88 @@
+@import "common.scss"; //import header nav footer
+@import "Blog.scss";
+@import "Contact.scss";
+
+nav{
+    @extend %nav;
+   }
+#Section2Blog
+{
+    
+    h3{font-family: $fontRaleway;}
+    
+    .lineIco
+    {
+        font-size: 13px;
+        font-family: $fontLato;
+    }
+.comma
+{
+   background-color: #f3f3f3;
+    img.com{width: 92px;}
+    
+}
+    
+ul{
+    li{
+      list-style: none;
+        i{
+        font-size: 10px;
+        color: $main-color;
+            margin-right: 9px;
+       }  
+    }
+
+}
+
+.media
+{
+    .media-body
+    {
+        h5
+        {
+          font-family: $fontRaleway !important;font-size: 13px;  
+        }
+    }
+}
+.comment
+{
+   h4{
+        @extend %h4-prop;
+        &:after{@extend %Line-after;}
+    }  
+    
+     article
+    {
+        h6
+        {
+            position: relative;font-size: 12px;
+           &:after
+            {
+                @extend %Line-after;
+            }
+        }
+    }
+}
+.Leave
+{
+    @extend  #Section2Contact;
+    h4{
+        @extend %h4-prop;
+        &:after{@extend %Line-after}
+    }
+    .btn{width: 180px !important;font-family: $fontRaleway !important;font-size: 14px;}
+    .SecForm{width: 100% !important;}
+}
+    
+    
+}
+
+aside
+{
+    .Tags{
+        .btn
+        {
+            background-color: transparent !important;
+        }
+    } 
+}

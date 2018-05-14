@@ -1,0 +1,226 @@
+@import "common.scss"; //import header nav footer
+
+header{
+    nav{
+        @extend %nav;
+      }
+}
+  
+
+main
+{
+  #Section1AboutUs
+    {
+        @extend %First-section;
+        background-image: url("../../Dis/Images/aboutUs/section-bg-9.jpg");
+    }
+    
+    #Section2AboutUs
+    {
+         article.title
+        {
+         @extend %article.title;  
+            display: inline-block;
+        }
+        
+        h6
+        {
+             font-family: $fontRaleway;
+        }
+        h4:after
+        {
+            border: 1px solid black !important;
+        }
+        i{
+            color: $main-color;
+            font-size: 28px;
+        }
+        
+        p{
+            font: {
+                    family:$fontLato;
+                    size:12px;
+                  }
+            }
+        
+        .ii{
+            color:#e0e7ef59;
+                font-size: 81px !important;
+                margin-left: 55px;
+                top: 9px;
+        }
+    }
+    #Section3AboutUs
+    {
+            background-color: $main-color;
+        article
+        {
+            font-family: $fontRaleway;
+            top: 16px;
+            
+            p{
+                &:first-child{ font-size: 12px;}
+                text-align: center;
+                font-size: 23px;
+            }
+        }
+        img{
+            width: 75px;height: 77px;
+        }
+    }
+    
+     #Section4AboutUs
+    {
+         article.title
+        {
+         @extend %article.title;  
+            display: inline-block;
+        }
+        h4:after
+        {
+            border-top: 1px solid black !important;
+        }
+       
+        .overlay
+        {
+            @extend %overlayImg;
+            figure{
+              @extend %figure;  
+            }
+            p:after
+            {left: 47% !important;}
+            
+        }
+        
+        .carousel-item
+        {
+            img{width: 100%;}
+            article
+          { text-align: center;
+              margin-top: 15px;
+                 
+            h6
+            {
+                font-family: $fontRaleway;margin: 0; font-size:16px;
+            }
+            p{family:$fontLato;}
+          }
+            figure{@extend %figure;
+            .overlay
+            {
+                @extend %overlayImg;
+                text-align: center;
+                p{  position: relative;
+                    font:
+                              {
+                                family:$fontLato;
+                                size:12px;
+                              }
+                    &:after{
+                            @extend %Line-after;
+                            bottom: -10px;
+                           left: 44%;
+                            border-top: 1px solid #000000;
+                           
+                         }
+                }
+                i{
+                    font-size: 17px;
+                    margin-left: 22px;
+                    &:hover{color: $main-color;} 
+                }
+               
+            }
+            }
+        }
+        
+        .carousel-control-prev
+        {
+            top: 34%;
+            left: -81px;
+            width: 50px;
+            height: 40px;
+            border:  1px solid #dedfd9;
+            &:hover{border:  1px solid #fbca03;}
+        }
+        .carousel-control-next
+        {
+            top: 34%;
+            right: -53px;
+              width: 50px;
+            height: 40px;
+            border:  1px solid #dedfd9;
+            &:hover{border:  1px solid #fbca03;}
+        }
+        .carousel-control-prev-icon
+        {
+            background-image: url(../../Dis/Images/Icons/left.png);
+            width: 20px;
+            height: 12px;
+        }
+        .carousel-control-next-icon
+        {
+            background-image: url(../../Dis/Images/Icons/right.png);
+            width: 20px;
+            height: 12px;
+        }
+    }
+    
+    #Section5AboutUs
+    {
+        background: 
+            {
+            image: url(../../Dis/Images/aboutUs/section-bg-5.jpg);
+            attachment: fixed;
+            position: bottom;
+            size: cover; 
+                };
+        
+        height: 400px;
+        .title{width: 400px;font-size: 13px;}
+        article
+        {
+            .subtitle
+            {
+                font-family: $fontKaushan;
+            }
+            h4,h6{  font-family: $fontRaleway;position: relative;}
+            h4:after
+            {
+                @extend %Line-after;
+                bottom: -5px;
+                left: 46% !important;
+                border-top: 1px solid #000000;
+            }
+            p{font-family: $fontLato;}
+        }
+    }
+    
+     #Section6AboutUs
+    {
+        img{width: 100%;}
+        .title 
+        {
+            h4{
+              font-family: $fontRaleway;position: relative;  
+                &:after
+                {
+                    @extend %Line-after;
+                    bottom: -5px;
+                    border-top: 1px solid #000000;
+                }
+            }
+        }
+        .subtitle
+            {
+                font-family: $fontKaushan;
+            }
+        
+        p{font-family: $fontLato;font-size: 13px;}
+        
+        .progress
+        {
+            height: 5px;
+        }
+    }
+}

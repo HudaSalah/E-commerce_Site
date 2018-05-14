@@ -1,0 +1,59 @@
+footer article.aboutDetail h4:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+body {
+  box-sizing: border-box; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }

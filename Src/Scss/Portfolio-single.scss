@@ -1,0 +1,83 @@
+@import "common.scss"; //import header nav footer
+
+header{
+    nav{
+        @extend %nav;
+      }
+}
+
+main
+{
+    #Section1PortfolioS
+    {
+      @extend %First-section;
+      background-image: url(../../Dis/Images/portfolio/section-bg-8.jpg);
+      background-position: top;
+    }
+    
+    #Section2PortfolioS
+    {
+        img{width: 100%;}
+        h4,h6
+        {
+            font-family: $fontRaleway; 
+            margin: 0;
+        }
+        p{
+           font-family:$fontLato; 
+        }
+        
+        .social
+        {
+            p{font-family: $fontRaleway;} 
+            i{
+                margin-left: 20px;
+                &:hover{
+                    color:black !important;transition-duration: 0.5s;cursor: pointer;
+                }
+            }
+        }
+        .detail
+        {
+            p{font-size: 13px;}
+            @media only screen and (max-width:768px){margin-top: 15px;}
+        }
+        
+        .scroll
+        {
+                height: 70px;
+                border-top: 1px solid #e8ecec;
+                border-bottom: 1px solid #e8ecec;
+            button{
+                    width: 90px;
+                    height: 40px;
+                @extend %btn;
+                 box-shadow:$box-shadow;
+                background-color: white;
+                &:hover
+                {
+                   @extend %btn-light-hover;
+                }
+                
+                 img{width: 17px;margin-right: 6px;}
+            }
+            
+            img{width:44px;}
+        }
+    }
+    
+    #Section4PortfolioS
+    {
+        h4
+        { font-family: $fontRaleway;
+          position: relative;
+            &:after
+            {
+                @extend %Line-after;
+                    margin: -13px 0;
+            }
+        }
+        img{width: 100%;}
+        
+    }
+}

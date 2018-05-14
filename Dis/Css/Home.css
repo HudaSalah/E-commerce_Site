@@ -1,0 +1,1468 @@
+main #Section2Blog aside article, main #Section8Home aside article, main #Section2Blog aside .latestNews, main #Section8Home aside .latestNews {
+  border-bottom: 1px solid #dcdbd9; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, main #Section2Contact .SecForm .form button.shadow, main #Section10Home .SecForm .form button.shadow {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  font-family: "Raleway", sans-serif; }
+
+main #Section2Blog aside .FilterPrice .btn:hover, main #Section8Home aside .FilterPrice .btn:hover, main #Section2Contact .SecForm .form .btn-light:hover, main #Section10Home .SecForm .form .btn-light:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after, main #Section2Blog aside h4:after, main #Section8Home aside h4:after, footer article.aboutDetail h4:after, main #Section4AboutUs .carousel-item figure .overlay p:after, main #Section5AboutUs article h4:after, main #Section9Home article h4:after, main #Section6AboutUs .title h4:after, main #Section3Home .title h4:after, main #Section7Home .title h4:after, main #Section6Home .title h4:after, main #Section2Blog figcaption h6:last-child:after, main #Section8Home figcaption h6:last-child:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section2Blog aside h4, main #Section8Home aside h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  position: relative; }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt, main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, header .media-body .btn, main #Section2Blog aside .Tags .btn, main #Section8Home aside .Tags .btn, main #Section1Home article .btn, main #Section3Home article .btn, main #Section7Home article .btn, main #Section6Home article .btn {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2Blog aside button.filt:focus, main #Section8Home aside button.filt:focus, main #Section2Blog aside .FilterPrice .btn:focus, main #Section8Home aside .FilterPrice .btn:focus, header .media-body .btn:focus, main #Section2Blog aside .Tags .btn:focus, main #Section8Home aside .Tags .btn:focus, main #Section1Home article .btn:focus, main #Section3Home article .btn:focus, main #Section7Home article .btn:focus, main #Section6Home article .btn:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section2AboutUs article.title, main #Section2Home article.title, main #Section8Home article.title, main #Section4AboutUs article.title, main #Section2Contact article.title, main #Section10Home article.title, main #Section4Home article.title {
+  padding-left: 3px;
+  padding-right: 3px; }
+  main #Section2AboutUs article.title p.subtitle, main #Section2Home article.title p.subtitle, main #Section8Home article.title p.subtitle, main #Section4AboutUs article.title p.subtitle, main #Section2Contact article.title p.subtitle, main #Section10Home article.title p.subtitle, main #Section4Home article.title p.subtitle {
+    font-family: "Kaushan Script", cursive;
+    font-size: 11px; }
+  main #Section2AboutUs article.title h4, main #Section2Home article.title h4, main #Section8Home article.title h4, main #Section4AboutUs article.title h4, main #Section2Contact article.title h4, main #Section10Home article.title h4, main #Section4Home article.title h4 {
+    font-family: "Raleway", sans-serif;
+    position: relative; }
+    main #Section2AboutUs article.title h4:after, main #Section2Home article.title h4:after, main #Section8Home article.title h4:after, main #Section4AboutUs article.title h4:after, main #Section2Contact article.title h4:after, main #Section10Home article.title h4:after, main #Section4Home article.title h4:after {
+      content: " ";
+      position: absolute;
+      margin: 2px 0;
+      width: 40px;
+      bottom: -12px;
+      left: 44%;
+      border-top: 1px solid #fbca03;
+      z-index: -1; }
+  main #Section2AboutUs article.title p, main #Section2Home article.title p, main #Section8Home article.title p, main #Section4AboutUs article.title p, main #Section2Contact article.title p, main #Section10Home article.title p, main #Section4Home article.title p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px; }
+
+main #Section4AboutUs .overlay figure, main #Section4AboutUs .carousel-item figure, main #Section2Blog figure, main #Section8Home figure, main #Section4Home .sec3Fig figure {
+  position: relative; }
+  main #Section4AboutUs .overlay figure img, main #Section4AboutUs .carousel-item figure img, main #Section2Blog figure img, main #Section8Home figure img, main #Section4Home .sec3Fig figure img {
+    width: 100%; }
+  main #Section4AboutUs .overlay figure:hover .overlay, main #Section4AboutUs .carousel-item figure:hover .overlay, main #Section2Blog figure:hover .overlay, main #Section8Home figure:hover .overlay, main #Section4Home .sec3Fig figure:hover .overlay {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+main #Section4AboutUs .overlay, main #Section4AboutUs .carousel-item figure .overlay, main #Section2Blog .overlay, main #Section8Home .overlay, main #Section4Home .sec3Fig .overlay {
+  background-color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+body {
+  box-sizing: border-box; }
+
+header nav, header, main #Section1Home nav {
+  z-index: 999; }
+  header nav .navbar-nav a, header .navbar-nav a, main #Section1Home nav .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header nav .navbar-nav a:hover, header .navbar-nav a:hover, main #Section1Home nav .navbar-nav a:hover {
+      color: #fbca03; }
+  header nav .navbar-nav .dropdown-item, header .navbar-nav .dropdown-item, main #Section1Home nav .navbar-nav .dropdown-item {
+    text-align: center; }
+  header nav .navbar-nav .dropdown-menu, header .navbar-nav .dropdown-menu, main #Section1Home nav .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header nav .navbar-nav button.bg-white:hover, header .navbar-nav button.bg-white:hover, main #Section1Home nav .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header nav .navbar-nav li.active a, header .navbar-nav li.active a, main #Section1Home nav .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+header button.bg-white:hover {
+  background-color: #fbca03 !important;
+  transition-duration: 1s; }
+
+header ul.ulNav {
+  margin-bottom: 0;
+  margin-top: 5px; }
+  header ul.ulNav li {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 17px;
+    cursor: pointer; }
+    header ul.ulNav li:first-child button {
+      margin-top: -6px; }
+    header ul.ulNav li .notify {
+      background-color: #fbca03;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-left: -12px; }
+    header ul.ulNav li:hover {
+      color: #fbca03;
+      transition-duration: 0.5s; }
+
+main #Section1AboutUs, main #Section1Blog, main #Section1Contact, main #Section1Home {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1AboutUs article, main #Section1Blog article, main #Section1Contact article, main #Section1Home article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1AboutUs article p, main #Section1Blog article p, main #Section1Contact article p, main #Section1Home article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1AboutUs article h1, main #Section1Blog article h1, main #Section1Contact article h1, main #Section1Home article h1 {
+      font-family: "Raleway", sans-serif; }
+
+main #Section2Blog .pagenate ul img, main #Section8Home .pagenate ul img {
+  width: 16px; }
+
+main #Section2Blog .pagenate ul .page-link:hover, main #Section8Home .pagenate ul .page-link:hover {
+  background-color: #fbca03 !important; }
+
+main #Section2Blog .pagenate ul .page-link, main #Section8Home .pagenate ul .page-link, main #Section2Blog .pagenate ul a, main #Section8Home .pagenate ul a {
+  color: black !important; }
+
+@media only screen and (max-width: 960px) {
+  main #Section2Blog aside#mySidebar, main #Section8Home aside#mySidebar {
+    display: none; } }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt {
+  width: 100%; }
+
+main #Section2Blog aside .search, main #Section8Home aside .search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px; }
+  main #Section2Blog aside .search input, main #Section8Home aside .search input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #dcdbd9;
+    text-indent: 20px; }
+  main #Section2Blog aside .search .fa-search, main #Section8Home aside .search .fa-search {
+    position: absolute;
+    top: 8px;
+    right: 16px; }
+
+main #Section2Blog aside article, main #Section8Home aside article {
+  padding-bottom: 7px;
+  font-family: "Lato", sans-serif; }
+  main #Section2Blog aside article p, main #Section8Home aside article p {
+    margin: 0; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn {
+  background-color: #fefefe; }
+
+main #Section2Blog aside .FilterPrice .Fdiv, main #Section8Home aside .FilterPrice .Fdiv {
+  height: 3px;
+  width: 100%;
+  background-color: #9da4ab; }
+  main #Section2Blog aside .FilterPrice .Fdiv .Sdiv, main #Section8Home aside .FilterPrice .Fdiv .Sdiv {
+    background-color: black;
+    height: 3px;
+    width: 70%; }
+  main #Section2Blog aside .FilterPrice .Fdiv:after, main #Section8Home aside .FilterPrice .Fdiv:after {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 0px; }
+  main #Section2Blog aside .FilterPrice .Fdiv:before, main #Section8Home aside .FilterPrice .Fdiv:before {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 128px; }
+
+main #Section2Blog aside .FilterColor ul, main #Section8Home aside .FilterColor ul {
+  font-size: 15px;
+  color: #5e656b; }
+  main #Section2Blog aside .FilterColor ul:first-child, main #Section8Home aside .FilterColor ul:first-child {
+    padding-left: 16px; }
+
+main #Section2Blog aside .media, main #Section8Home aside .media {
+  cursor: pointer; }
+  main #Section2Blog aside .media img, main #Section8Home aside .media img {
+    width: 64px; }
+
+main #Section2Blog aside .media-body, main #Section8Home aside .media-body {
+  font-size: 12px; }
+  main #Section2Blog aside .media-body i, main #Section8Home aside .media-body i {
+    color: #9da4ab; }
+  main #Section2Blog aside .media-body h5, main #Section8Home aside .media-body h5, main #Section2Blog aside .media-body h6, main #Section8Home aside .media-body h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+main #Section2Blog aside article, main #Section8Home aside article, main #Section2Blog aside .latestNews, main #Section8Home aside .latestNews {
+  border-bottom: 1px solid #dcdbd9; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, main #Section2Contact .SecForm .form button.shadow, main #Section10Home .SecForm .form button.shadow {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  font-family: "Raleway", sans-serif; }
+
+main #Section2Blog aside .FilterPrice .btn:hover, main #Section8Home aside .FilterPrice .btn:hover, main #Section2Contact .SecForm .form .btn-light:hover, main #Section10Home .SecForm .form .btn-light:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after, main #Section2Blog aside h4:after, main #Section8Home aside h4:after, footer article.aboutDetail h4:after, main #Section4AboutUs .carousel-item figure .overlay p:after, main #Section5AboutUs article h4:after, main #Section9Home article h4:after, main #Section6AboutUs .title h4:after, main #Section3Home .title h4:after, main #Section7Home .title h4:after, main #Section6Home .title h4:after, main #Section2Blog figcaption h6:last-child:after, main #Section8Home figcaption h6:last-child:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section2Blog aside h4, main #Section8Home aside h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  position: relative; }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt, main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, header .media-body .btn, main #Section2Blog aside .Tags .btn, main #Section8Home aside .Tags .btn, main #Section1Home article .btn, main #Section3Home article .btn, main #Section7Home article .btn, main #Section6Home article .btn {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2Blog aside button.filt:focus, main #Section8Home aside button.filt:focus, main #Section2Blog aside .FilterPrice .btn:focus, main #Section8Home aside .FilterPrice .btn:focus, header .media-body .btn:focus, main #Section2Blog aside .Tags .btn:focus, main #Section8Home aside .Tags .btn:focus, main #Section1Home article .btn:focus, main #Section3Home article .btn:focus, main #Section7Home article .btn:focus, main #Section6Home article .btn:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section2AboutUs article.title, main #Section2Home article.title, main #Section8Home article.title, main #Section4AboutUs article.title, main #Section2Contact article.title, main #Section10Home article.title, main #Section4Home article.title {
+  padding-left: 3px;
+  padding-right: 3px; }
+  main #Section2AboutUs article.title p.subtitle, main #Section2Home article.title p.subtitle, main #Section8Home article.title p.subtitle, main #Section4AboutUs article.title p.subtitle, main #Section2Contact article.title p.subtitle, main #Section10Home article.title p.subtitle, main #Section4Home article.title p.subtitle {
+    font-family: "Kaushan Script", cursive;
+    font-size: 11px; }
+  main #Section2AboutUs article.title h4, main #Section2Home article.title h4, main #Section8Home article.title h4, main #Section4AboutUs article.title h4, main #Section2Contact article.title h4, main #Section10Home article.title h4, main #Section4Home article.title h4 {
+    font-family: "Raleway", sans-serif;
+    position: relative; }
+    main #Section2AboutUs article.title h4:after, main #Section2Home article.title h4:after, main #Section8Home article.title h4:after, main #Section4AboutUs article.title h4:after, main #Section2Contact article.title h4:after, main #Section10Home article.title h4:after, main #Section4Home article.title h4:after {
+      content: " ";
+      position: absolute;
+      margin: 2px 0;
+      width: 40px;
+      bottom: -12px;
+      left: 44%;
+      border-top: 1px solid #fbca03;
+      z-index: -1; }
+  main #Section2AboutUs article.title p, main #Section2Home article.title p, main #Section8Home article.title p, main #Section4AboutUs article.title p, main #Section2Contact article.title p, main #Section10Home article.title p, main #Section4Home article.title p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px; }
+
+main #Section4AboutUs .overlay figure, main #Section4AboutUs .carousel-item figure, main #Section2Blog figure, main #Section8Home figure, main #Section4Home .sec3Fig figure {
+  position: relative; }
+  main #Section4AboutUs .overlay figure img, main #Section4AboutUs .carousel-item figure img, main #Section2Blog figure img, main #Section8Home figure img, main #Section4Home .sec3Fig figure img {
+    width: 100%; }
+  main #Section4AboutUs .overlay figure:hover .overlay, main #Section4AboutUs .carousel-item figure:hover .overlay, main #Section2Blog figure:hover .overlay, main #Section8Home figure:hover .overlay, main #Section4Home .sec3Fig figure:hover .overlay {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+main #Section4AboutUs .overlay, main #Section4AboutUs .carousel-item figure .overlay, main #Section2Blog .overlay, main #Section8Home .overlay, main #Section4Home .sec3Fig .overlay {
+  background-color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+body {
+  box-sizing: border-box; }
+
+header nav, header, main #Section1Home nav {
+  z-index: 999; }
+  header nav .navbar-nav a, header .navbar-nav a, main #Section1Home nav .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header nav .navbar-nav a:hover, header .navbar-nav a:hover, main #Section1Home nav .navbar-nav a:hover {
+      color: #fbca03; }
+  header nav .navbar-nav .dropdown-item, header .navbar-nav .dropdown-item, main #Section1Home nav .navbar-nav .dropdown-item {
+    text-align: center; }
+  header nav .navbar-nav .dropdown-menu, header .navbar-nav .dropdown-menu, main #Section1Home nav .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header nav .navbar-nav button.bg-white:hover, header .navbar-nav button.bg-white:hover, main #Section1Home nav .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header nav .navbar-nav li.active a, header .navbar-nav li.active a, main #Section1Home nav .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+header button.bg-white:hover {
+  background-color: #fbca03 !important;
+  transition-duration: 1s; }
+
+header ul.ulNav {
+  margin-bottom: 0;
+  margin-top: 5px; }
+  header ul.ulNav li {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 17px;
+    cursor: pointer; }
+    header ul.ulNav li:first-child button {
+      margin-top: -6px; }
+    header ul.ulNav li .notify {
+      background-color: #fbca03;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-left: -12px; }
+    header ul.ulNav li:hover {
+      color: #fbca03;
+      transition-duration: 0.5s; }
+
+main #Section1AboutUs, main #Section1Blog, main #Section1Contact, main #Section1Home {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1AboutUs article, main #Section1Blog article, main #Section1Contact article, main #Section1Home article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1AboutUs article p, main #Section1Blog article p, main #Section1Contact article p, main #Section1Home article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1AboutUs article h1, main #Section1Blog article h1, main #Section1Contact article h1, main #Section1Home article h1 {
+      font-family: "Raleway", sans-serif; }
+
+main #Section2Blog .pagenate ul img, main #Section8Home .pagenate ul img {
+  width: 16px; }
+
+main #Section2Blog .pagenate ul .page-link:hover, main #Section8Home .pagenate ul .page-link:hover {
+  background-color: #fbca03 !important; }
+
+main #Section2Blog .pagenate ul .page-link, main #Section8Home .pagenate ul .page-link, main #Section2Blog .pagenate ul a, main #Section8Home .pagenate ul a {
+  color: black !important; }
+
+@media only screen and (max-width: 960px) {
+  main #Section2Blog aside#mySidebar, main #Section8Home aside#mySidebar {
+    display: none; } }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt {
+  width: 100%; }
+
+main #Section2Blog aside .search, main #Section8Home aside .search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px; }
+  main #Section2Blog aside .search input, main #Section8Home aside .search input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #dcdbd9;
+    text-indent: 20px; }
+  main #Section2Blog aside .search .fa-search, main #Section8Home aside .search .fa-search {
+    position: absolute;
+    top: 8px;
+    right: 16px; }
+
+main #Section2Blog aside article, main #Section8Home aside article {
+  padding-bottom: 7px;
+  font-family: "Lato", sans-serif; }
+  main #Section2Blog aside article p, main #Section8Home aside article p {
+    margin: 0; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn {
+  background-color: #fefefe; }
+
+main #Section2Blog aside .FilterPrice .Fdiv, main #Section8Home aside .FilterPrice .Fdiv {
+  height: 3px;
+  width: 100%;
+  background-color: #9da4ab; }
+  main #Section2Blog aside .FilterPrice .Fdiv .Sdiv, main #Section8Home aside .FilterPrice .Fdiv .Sdiv {
+    background-color: black;
+    height: 3px;
+    width: 70%; }
+  main #Section2Blog aside .FilterPrice .Fdiv:after, main #Section8Home aside .FilterPrice .Fdiv:after {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 0px; }
+  main #Section2Blog aside .FilterPrice .Fdiv:before, main #Section8Home aside .FilterPrice .Fdiv:before {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 128px; }
+
+main #Section2Blog aside .FilterColor ul, main #Section8Home aside .FilterColor ul {
+  font-size: 15px;
+  color: #5e656b; }
+  main #Section2Blog aside .FilterColor ul:first-child, main #Section8Home aside .FilterColor ul:first-child {
+    padding-left: 16px; }
+
+main #Section2Blog aside .media, main #Section8Home aside .media {
+  cursor: pointer; }
+  main #Section2Blog aside .media img, main #Section8Home aside .media img {
+    width: 64px; }
+
+main #Section2Blog aside .media-body, main #Section8Home aside .media-body {
+  font-size: 12px; }
+  main #Section2Blog aside .media-body i, main #Section8Home aside .media-body i {
+    color: #9da4ab; }
+  main #Section2Blog aside .media-body h5, main #Section8Home aside .media-body h5, main #Section2Blog aside .media-body h6, main #Section8Home aside .media-body h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+main #Section1AboutUs {
+  background-image: url("../../Dis/Images/aboutUs/section-bg-9.jpg"); }
+
+main #Section2AboutUs article.title, main #Section2Home article.title, main #Section8Home article.title {
+  display: inline-block; }
+
+main #Section2AboutUs h6, main #Section2Home h6, main #Section8Home h6 {
+  font-family: "Raleway", sans-serif; }
+
+main #Section2AboutUs h4:after, main #Section2Home h4:after, main #Section8Home h4:after {
+  border: 1px solid black !important; }
+
+main #Section2AboutUs i, main #Section2Home i, main #Section8Home i {
+  color: #fbca03;
+  font-size: 28px; }
+
+main #Section2AboutUs p, main #Section2Home p, main #Section8Home p {
+  font-family: "Lato", sans-serif;
+  font-size: 12px; }
+
+main #Section2AboutUs .ii, main #Section2Home .ii, main #Section8Home .ii {
+  color: #e0e7ef59;
+  font-size: 81px !important;
+  margin-left: 55px;
+  top: 9px; }
+
+main #Section3AboutUs, main #Section5Home {
+  background-color: #fbca03; }
+  main #Section3AboutUs article, main #Section5Home article {
+    font-family: "Raleway", sans-serif;
+    top: 16px; }
+    main #Section3AboutUs article p, main #Section5Home article p {
+      text-align: center;
+      font-size: 23px; }
+      main #Section3AboutUs article p:first-child, main #Section5Home article p:first-child {
+        font-size: 12px; }
+  main #Section3AboutUs img, main #Section5Home img {
+    width: 75px;
+    height: 77px; }
+
+main #Section4AboutUs article.title {
+  display: inline-block; }
+
+main #Section4AboutUs h4:after {
+  border-top: 1px solid black !important; }
+
+main #Section4AboutUs .overlay p:after {
+  left: 47% !important; }
+
+main #Section4AboutUs .carousel-item img {
+  width: 100%; }
+
+main #Section4AboutUs .carousel-item article {
+  text-align: center;
+  margin-top: 15px; }
+  main #Section4AboutUs .carousel-item article h6 {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-size: 16px; }
+  main #Section4AboutUs .carousel-item article p {
+    family: "Lato", sans-serif; }
+
+main #Section4AboutUs .carousel-item figure .overlay {
+  text-align: center; }
+  main #Section4AboutUs .carousel-item figure .overlay p {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-size: 12px; }
+    main #Section4AboutUs .carousel-item figure .overlay p:after {
+      bottom: -10px;
+      left: 44%;
+      border-top: 1px solid #000000; }
+  main #Section4AboutUs .carousel-item figure .overlay i {
+    font-size: 17px;
+    margin-left: 22px; }
+    main #Section4AboutUs .carousel-item figure .overlay i:hover {
+      color: #fbca03; }
+
+main #Section4AboutUs .carousel-control-prev {
+  top: 34%;
+  left: -81px;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #dedfd9; }
+  main #Section4AboutUs .carousel-control-prev:hover {
+    border: 1px solid #fbca03; }
+
+main #Section4AboutUs .carousel-control-next {
+  top: 34%;
+  right: -53px;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #dedfd9; }
+  main #Section4AboutUs .carousel-control-next:hover {
+    border: 1px solid #fbca03; }
+
+main #Section4AboutUs .carousel-control-prev-icon {
+  background-image: url(../../Dis/Images/Icons/left.png);
+  width: 20px;
+  height: 12px; }
+
+main #Section4AboutUs .carousel-control-next-icon {
+  background-image: url(../../Dis/Images/Icons/right.png);
+  width: 20px;
+  height: 12px; }
+
+main #Section5AboutUs, main #Section9Home {
+  background-image: url(../../Dis/Images/aboutUs/section-bg-5.jpg);
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  height: 400px; }
+  main #Section5AboutUs .title, main #Section9Home .title {
+    width: 400px;
+    font-size: 13px; }
+  main #Section5AboutUs article .subtitle, main #Section9Home article .subtitle {
+    font-family: "Kaushan Script", cursive; }
+  main #Section5AboutUs article h4, main #Section9Home article h4, main #Section5AboutUs article h6, main #Section9Home article h6 {
+    font-family: "Raleway", sans-serif;
+    position: relative; }
+  main #Section5AboutUs article h4:after, main #Section9Home article h4:after {
+    bottom: -5px;
+    left: 46% !important;
+    border-top: 1px solid #000000; }
+  main #Section5AboutUs article p, main #Section9Home article p {
+    font-family: "Lato", sans-serif; }
+
+main #Section6AboutUs img, main #Section3Home img, main #Section7Home img, main #Section6Home img {
+  width: 100%; }
+
+main #Section6AboutUs .title h4, main #Section3Home .title h4, main #Section7Home .title h4, main #Section6Home .title h4 {
+  font-family: "Raleway", sans-serif;
+  position: relative; }
+  main #Section6AboutUs .title h4:after, main #Section3Home .title h4:after, main #Section7Home .title h4:after, main #Section6Home .title h4:after {
+    bottom: -5px;
+    border-top: 1px solid #000000; }
+
+main #Section6AboutUs .subtitle, main #Section3Home .subtitle, main #Section7Home .subtitle, main #Section6Home .subtitle {
+  font-family: "Kaushan Script", cursive; }
+
+main #Section6AboutUs p, main #Section3Home p, main #Section7Home p, main #Section6Home p {
+  font-family: "Lato", sans-serif;
+  font-size: 13px; }
+
+main #Section6AboutUs .progress, main #Section3Home .progress, main #Section7Home .progress, main #Section6Home .progress {
+  height: 5px; }
+
+main #Section2Blog aside article, main #Section8Home aside article, main #Section2Blog aside .latestNews, main #Section8Home aside .latestNews {
+  border-bottom: 1px solid #dcdbd9; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, main #Section2Contact .SecForm .form button.shadow, main #Section10Home .SecForm .form button.shadow {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  font-family: "Raleway", sans-serif; }
+
+main #Section2Blog aside .FilterPrice .btn:hover, main #Section8Home aside .FilterPrice .btn:hover, main #Section2Contact .SecForm .form .btn-light:hover, main #Section10Home .SecForm .form .btn-light:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after, main #Section2Blog aside h4:after, main #Section8Home aside h4:after, footer article.aboutDetail h4:after, main #Section4AboutUs .carousel-item figure .overlay p:after, main #Section5AboutUs article h4:after, main #Section9Home article h4:after, main #Section6AboutUs .title h4:after, main #Section3Home .title h4:after, main #Section7Home .title h4:after, main #Section6Home .title h4:after, main #Section2Blog figcaption h6:last-child:after, main #Section8Home figcaption h6:last-child:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section2Blog aside h4, main #Section8Home aside h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  position: relative; }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt, main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, header .media-body .btn, main #Section2Blog aside .Tags .btn, main #Section8Home aside .Tags .btn, main #Section1Home article .btn, main #Section3Home article .btn, main #Section7Home article .btn, main #Section6Home article .btn {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2Blog aside button.filt:focus, main #Section8Home aside button.filt:focus, main #Section2Blog aside .FilterPrice .btn:focus, main #Section8Home aside .FilterPrice .btn:focus, header .media-body .btn:focus, main #Section2Blog aside .Tags .btn:focus, main #Section8Home aside .Tags .btn:focus, main #Section1Home article .btn:focus, main #Section3Home article .btn:focus, main #Section7Home article .btn:focus, main #Section6Home article .btn:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section2AboutUs article.title, main #Section2Home article.title, main #Section8Home article.title, main #Section4AboutUs article.title, main #Section2Contact article.title, main #Section10Home article.title, main #Section4Home article.title {
+  padding-left: 3px;
+  padding-right: 3px; }
+  main #Section2AboutUs article.title p.subtitle, main #Section2Home article.title p.subtitle, main #Section8Home article.title p.subtitle, main #Section4AboutUs article.title p.subtitle, main #Section2Contact article.title p.subtitle, main #Section10Home article.title p.subtitle, main #Section4Home article.title p.subtitle {
+    font-family: "Kaushan Script", cursive;
+    font-size: 11px; }
+  main #Section2AboutUs article.title h4, main #Section2Home article.title h4, main #Section8Home article.title h4, main #Section4AboutUs article.title h4, main #Section2Contact article.title h4, main #Section10Home article.title h4, main #Section4Home article.title h4 {
+    font-family: "Raleway", sans-serif;
+    position: relative; }
+    main #Section2AboutUs article.title h4:after, main #Section2Home article.title h4:after, main #Section8Home article.title h4:after, main #Section4AboutUs article.title h4:after, main #Section2Contact article.title h4:after, main #Section10Home article.title h4:after, main #Section4Home article.title h4:after {
+      content: " ";
+      position: absolute;
+      margin: 2px 0;
+      width: 40px;
+      bottom: -12px;
+      left: 44%;
+      border-top: 1px solid #fbca03;
+      z-index: -1; }
+  main #Section2AboutUs article.title p, main #Section2Home article.title p, main #Section8Home article.title p, main #Section4AboutUs article.title p, main #Section2Contact article.title p, main #Section10Home article.title p, main #Section4Home article.title p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px; }
+
+main #Section4AboutUs .overlay figure, main #Section4AboutUs .carousel-item figure, main #Section2Blog figure, main #Section8Home figure, main #Section4Home .sec3Fig figure {
+  position: relative; }
+  main #Section4AboutUs .overlay figure img, main #Section4AboutUs .carousel-item figure img, main #Section2Blog figure img, main #Section8Home figure img, main #Section4Home .sec3Fig figure img {
+    width: 100%; }
+  main #Section4AboutUs .overlay figure:hover .overlay, main #Section4AboutUs .carousel-item figure:hover .overlay, main #Section2Blog figure:hover .overlay, main #Section8Home figure:hover .overlay, main #Section4Home .sec3Fig figure:hover .overlay {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+main #Section4AboutUs .overlay, main #Section4AboutUs .carousel-item figure .overlay, main #Section2Blog .overlay, main #Section8Home .overlay, main #Section4Home .sec3Fig .overlay {
+  background-color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+body {
+  box-sizing: border-box; }
+
+header nav, header, main #Section1Home nav {
+  z-index: 999; }
+  header nav .navbar-nav a, header .navbar-nav a, main #Section1Home nav .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header nav .navbar-nav a:hover, header .navbar-nav a:hover, main #Section1Home nav .navbar-nav a:hover {
+      color: #fbca03; }
+  header nav .navbar-nav .dropdown-item, header .navbar-nav .dropdown-item, main #Section1Home nav .navbar-nav .dropdown-item {
+    text-align: center; }
+  header nav .navbar-nav .dropdown-menu, header .navbar-nav .dropdown-menu, main #Section1Home nav .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header nav .navbar-nav button.bg-white:hover, header .navbar-nav button.bg-white:hover, main #Section1Home nav .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header nav .navbar-nav li.active a, header .navbar-nav li.active a, main #Section1Home nav .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+header button.bg-white:hover {
+  background-color: #fbca03 !important;
+  transition-duration: 1s; }
+
+header ul.ulNav {
+  margin-bottom: 0;
+  margin-top: 5px; }
+  header ul.ulNav li {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 17px;
+    cursor: pointer; }
+    header ul.ulNav li:first-child button {
+      margin-top: -6px; }
+    header ul.ulNav li .notify {
+      background-color: #fbca03;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-left: -12px; }
+    header ul.ulNav li:hover {
+      color: #fbca03;
+      transition-duration: 0.5s; }
+
+main #Section1AboutUs, main #Section1Blog, main #Section1Contact, main #Section1Home {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1AboutUs article, main #Section1Blog article, main #Section1Contact article, main #Section1Home article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1AboutUs article p, main #Section1Blog article p, main #Section1Contact article p, main #Section1Home article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1AboutUs article h1, main #Section1Blog article h1, main #Section1Contact article h1, main #Section1Home article h1 {
+      font-family: "Raleway", sans-serif; }
+
+main #Section2Blog .pagenate ul img, main #Section8Home .pagenate ul img {
+  width: 16px; }
+
+main #Section2Blog .pagenate ul .page-link:hover, main #Section8Home .pagenate ul .page-link:hover {
+  background-color: #fbca03 !important; }
+
+main #Section2Blog .pagenate ul .page-link, main #Section8Home .pagenate ul .page-link, main #Section2Blog .pagenate ul a, main #Section8Home .pagenate ul a {
+  color: black !important; }
+
+@media only screen and (max-width: 960px) {
+  main #Section2Blog aside#mySidebar, main #Section8Home aside#mySidebar {
+    display: none; } }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt {
+  width: 100%; }
+
+main #Section2Blog aside .search, main #Section8Home aside .search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px; }
+  main #Section2Blog aside .search input, main #Section8Home aside .search input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #dcdbd9;
+    text-indent: 20px; }
+  main #Section2Blog aside .search .fa-search, main #Section8Home aside .search .fa-search {
+    position: absolute;
+    top: 8px;
+    right: 16px; }
+
+main #Section2Blog aside article, main #Section8Home aside article {
+  padding-bottom: 7px;
+  font-family: "Lato", sans-serif; }
+  main #Section2Blog aside article p, main #Section8Home aside article p {
+    margin: 0; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn {
+  background-color: #fefefe; }
+
+main #Section2Blog aside .FilterPrice .Fdiv, main #Section8Home aside .FilterPrice .Fdiv {
+  height: 3px;
+  width: 100%;
+  background-color: #9da4ab; }
+  main #Section2Blog aside .FilterPrice .Fdiv .Sdiv, main #Section8Home aside .FilterPrice .Fdiv .Sdiv {
+    background-color: black;
+    height: 3px;
+    width: 70%; }
+  main #Section2Blog aside .FilterPrice .Fdiv:after, main #Section8Home aside .FilterPrice .Fdiv:after {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 0px; }
+  main #Section2Blog aside .FilterPrice .Fdiv:before, main #Section8Home aside .FilterPrice .Fdiv:before {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 128px; }
+
+main #Section2Blog aside .FilterColor ul, main #Section8Home aside .FilterColor ul {
+  font-size: 15px;
+  color: #5e656b; }
+  main #Section2Blog aside .FilterColor ul:first-child, main #Section8Home aside .FilterColor ul:first-child {
+    padding-left: 16px; }
+
+main #Section2Blog aside .media, main #Section8Home aside .media {
+  cursor: pointer; }
+  main #Section2Blog aside .media img, main #Section8Home aside .media img {
+    width: 64px; }
+
+main #Section2Blog aside .media-body, main #Section8Home aside .media-body {
+  font-size: 12px; }
+  main #Section2Blog aside .media-body i, main #Section8Home aside .media-body i {
+    color: #9da4ab; }
+  main #Section2Blog aside .media-body h5, main #Section8Home aside .media-body h5, main #Section2Blog aside .media-body h6, main #Section8Home aside .media-body h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+header .dropdown-toggle:after {
+  display: none; }
+
+header .nav-link {
+  padding: 0; }
+
+header .media-body h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin-right: 34px; }
+
+header .media-body i {
+  color: #9da4ab; }
+  header .media-body i:hover {
+    color: #fbca03; }
+
+header .media-body p {
+  font-family: "Raleway", sans-serif; }
+
+header .media-body button:first-child {
+  background-color: #fefefe;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+header .media-body button:nth-child(2) {
+  width: 130px;
+  margin-left: 32px; }
+
+header .dropdown-menu {
+  background-color: #ffffffef;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  left: auto !important;
+  right: 0 !important; }
+  header .dropdown-menu .dropdown-item {
+    border-bottom: solid 1px #ccd8e4; }
+    header .dropdown-menu .dropdown-item:last-child {
+      border: none; }
+    header .dropdown-menu .dropdown-item img {
+      width: 64px; }
+
+header .artc p {
+  font-family: "Lato", sans-serif;
+  margin-right: 79px; }
+
+header .artc .text-muted:hover {
+  color: aqua !important; }
+
+header .artc h6 {
+  font-family: "Raleway", sans-serif;
+  margin-top: 5px; }
+
+main #Section1Blog {
+  background-image: url(../../Dis/Images/blog/section-bg-11.jpg); }
+
+main #Section2Blog .overlay img, main #Section8Home .overlay img {
+  width: 30px; }
+  main #Section2Blog .overlay img:nth-child(2), main #Section8Home .overlay img:nth-child(2) {
+    margin-left: 40px; }
+
+main #Section2Blog figcaption, main #Section8Home figcaption {
+  margin-bottom: 25px; }
+  main #Section2Blog figcaption h4, main #Section8Home figcaption h4 {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-size: 17px; }
+    @media only screen and (max-width: 768px) and (min-width: 576px) {
+      main #Section2Blog figcaption h4, main #Section8Home figcaption h4 {
+        font-size: 10px; } }
+  main #Section2Blog figcaption h6, main #Section8Home figcaption h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    position: relative; }
+    main #Section2Blog figcaption h6:last-child:after, main #Section8Home figcaption h6:last-child:after {
+      cursor: pointer; }
+  main #Section2Blog figcaption p, main #Section8Home figcaption p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px; }
+    @media only screen and (max-width: 768px) and (min-width: 576px) {
+      main #Section2Blog figcaption p, main #Section8Home figcaption p {
+        font-size: 7px; } }
+
+main #Section2Blog aside p, main #Section8Home aside p {
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  color: #717477; }
+
+main #Section2Blog aside .Insta table img, main #Section8Home aside .Insta table img {
+  width: 60px;
+  margin-right: 4px;
+  margin-bottom: 4px; }
+
+main #Section2Blog aside .latestNews, main #Section8Home aside .latestNews {
+  padding-bottom: 12px; }
+  main #Section2Blog aside .latestNews img, main #Section8Home aside .latestNews img {
+    width: 100%; }
+  main #Section2Blog aside .latestNews h5, main #Section8Home aside .latestNews h5 {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif; }
+
+main #Section2Blog aside .list-unstyled h6, main #Section8Home aside .list-unstyled h6 {
+  font-size: 13px;
+  color: #9da4ab; }
+
+main #Section2Blog aside .Tags .btn, main #Section8Home aside .Tags .btn {
+  background-color: white;
+  border: 1px solid #dcdbd9;
+  color: #9da4ab;
+  margin-right: 6px;
+  margin-bottom: 6px; }
+
+main #Section2Blog aside article, main #Section8Home aside article, main #Section2Blog aside .latestNews, main #Section8Home aside .latestNews {
+  border-bottom: 1px solid #dcdbd9; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, main #Section2Contact .SecForm .form button.shadow, main #Section10Home .SecForm .form button.shadow {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  font-family: "Raleway", sans-serif; }
+
+main #Section2Blog aside .FilterPrice .btn:hover, main #Section8Home aside .FilterPrice .btn:hover, main #Section2Contact .SecForm .form .btn-light:hover, main #Section10Home .SecForm .form .btn-light:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after, main #Section2Blog aside h4:after, main #Section8Home aside h4:after, footer article.aboutDetail h4:after, main #Section4AboutUs .carousel-item figure .overlay p:after, main #Section5AboutUs article h4:after, main #Section9Home article h4:after, main #Section6AboutUs .title h4:after, main #Section3Home .title h4:after, main #Section7Home .title h4:after, main #Section6Home .title h4:after, main #Section2Blog figcaption h6:last-child:after, main #Section8Home figcaption h6:last-child:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section2Blog aside h4, main #Section8Home aside h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  position: relative; }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt, main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn, header .media-body .btn, main #Section2Blog aside .Tags .btn, main #Section8Home aside .Tags .btn, main #Section1Home article .btn, main #Section3Home article .btn, main #Section7Home article .btn, main #Section6Home article .btn {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2Blog aside button.filt:focus, main #Section8Home aside button.filt:focus, main #Section2Blog aside .FilterPrice .btn:focus, main #Section8Home aside .FilterPrice .btn:focus, header .media-body .btn:focus, main #Section2Blog aside .Tags .btn:focus, main #Section8Home aside .Tags .btn:focus, main #Section1Home article .btn:focus, main #Section3Home article .btn:focus, main #Section7Home article .btn:focus, main #Section6Home article .btn:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section2AboutUs article.title, main #Section2Home article.title, main #Section8Home article.title, main #Section4AboutUs article.title, main #Section2Contact article.title, main #Section10Home article.title, main #Section4Home article.title {
+  padding-left: 3px;
+  padding-right: 3px; }
+  main #Section2AboutUs article.title p.subtitle, main #Section2Home article.title p.subtitle, main #Section8Home article.title p.subtitle, main #Section4AboutUs article.title p.subtitle, main #Section2Contact article.title p.subtitle, main #Section10Home article.title p.subtitle, main #Section4Home article.title p.subtitle {
+    font-family: "Kaushan Script", cursive;
+    font-size: 11px; }
+  main #Section2AboutUs article.title h4, main #Section2Home article.title h4, main #Section8Home article.title h4, main #Section4AboutUs article.title h4, main #Section2Contact article.title h4, main #Section10Home article.title h4, main #Section4Home article.title h4 {
+    font-family: "Raleway", sans-serif;
+    position: relative; }
+    main #Section2AboutUs article.title h4:after, main #Section2Home article.title h4:after, main #Section8Home article.title h4:after, main #Section4AboutUs article.title h4:after, main #Section2Contact article.title h4:after, main #Section10Home article.title h4:after, main #Section4Home article.title h4:after {
+      content: " ";
+      position: absolute;
+      margin: 2px 0;
+      width: 40px;
+      bottom: -12px;
+      left: 44%;
+      border-top: 1px solid #fbca03;
+      z-index: -1; }
+  main #Section2AboutUs article.title p, main #Section2Home article.title p, main #Section8Home article.title p, main #Section4AboutUs article.title p, main #Section2Contact article.title p, main #Section10Home article.title p, main #Section4Home article.title p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px; }
+
+main #Section4AboutUs .overlay figure, main #Section4AboutUs .carousel-item figure, main #Section2Blog figure, main #Section8Home figure, main #Section4Home .sec3Fig figure {
+  position: relative; }
+  main #Section4AboutUs .overlay figure img, main #Section4AboutUs .carousel-item figure img, main #Section2Blog figure img, main #Section8Home figure img, main #Section4Home .sec3Fig figure img {
+    width: 100%; }
+  main #Section4AboutUs .overlay figure:hover .overlay, main #Section4AboutUs .carousel-item figure:hover .overlay, main #Section2Blog figure:hover .overlay, main #Section8Home figure:hover .overlay, main #Section4Home .sec3Fig figure:hover .overlay {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+main #Section4AboutUs .overlay, main #Section4AboutUs .carousel-item figure .overlay, main #Section2Blog .overlay, main #Section8Home .overlay, main #Section4Home .sec3Fig .overlay {
+  background-color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+body {
+  box-sizing: border-box; }
+
+header nav, header, main #Section1Home nav {
+  z-index: 999; }
+  header nav .navbar-nav a, header .navbar-nav a, main #Section1Home nav .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header nav .navbar-nav a:hover, header .navbar-nav a:hover, main #Section1Home nav .navbar-nav a:hover {
+      color: #fbca03; }
+  header nav .navbar-nav .dropdown-item, header .navbar-nav .dropdown-item, main #Section1Home nav .navbar-nav .dropdown-item {
+    text-align: center; }
+  header nav .navbar-nav .dropdown-menu, header .navbar-nav .dropdown-menu, main #Section1Home nav .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header nav .navbar-nav button.bg-white:hover, header .navbar-nav button.bg-white:hover, main #Section1Home nav .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header nav .navbar-nav li.active a, header .navbar-nav li.active a, main #Section1Home nav .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header nav .navbar-nav li.active a:after, header .navbar-nav li.active a:after, main #Section1Home nav .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+header button.bg-white:hover {
+  background-color: #fbca03 !important;
+  transition-duration: 1s; }
+
+header ul.ulNav {
+  margin-bottom: 0;
+  margin-top: 5px; }
+  header ul.ulNav li {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 17px;
+    cursor: pointer; }
+    header ul.ulNav li:first-child button {
+      margin-top: -6px; }
+    header ul.ulNav li .notify {
+      background-color: #fbca03;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-left: -12px; }
+    header ul.ulNav li:hover {
+      color: #fbca03;
+      transition-duration: 0.5s; }
+
+main #Section1AboutUs, main #Section1Blog, main #Section1Contact, main #Section1Home {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1AboutUs article, main #Section1Blog article, main #Section1Contact article, main #Section1Home article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1AboutUs article p, main #Section1Blog article p, main #Section1Contact article p, main #Section1Home article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1AboutUs article h1, main #Section1Blog article h1, main #Section1Contact article h1, main #Section1Home article h1 {
+      font-family: "Raleway", sans-serif; }
+
+main #Section2Blog .pagenate ul img, main #Section8Home .pagenate ul img {
+  width: 16px; }
+
+main #Section2Blog .pagenate ul .page-link:hover, main #Section8Home .pagenate ul .page-link:hover {
+  background-color: #fbca03 !important; }
+
+main #Section2Blog .pagenate ul .page-link, main #Section8Home .pagenate ul .page-link, main #Section2Blog .pagenate ul a, main #Section8Home .pagenate ul a {
+  color: black !important; }
+
+@media only screen and (max-width: 960px) {
+  main #Section2Blog aside#mySidebar, main #Section8Home aside#mySidebar {
+    display: none; } }
+
+main #Section2Blog aside button.filt, main #Section8Home aside button.filt {
+  width: 100%; }
+
+main #Section2Blog aside .search, main #Section8Home aside .search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px; }
+  main #Section2Blog aside .search input, main #Section8Home aside .search input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #dcdbd9;
+    text-indent: 20px; }
+  main #Section2Blog aside .search .fa-search, main #Section8Home aside .search .fa-search {
+    position: absolute;
+    top: 8px;
+    right: 16px; }
+
+main #Section2Blog aside article, main #Section8Home aside article {
+  padding-bottom: 7px;
+  font-family: "Lato", sans-serif; }
+  main #Section2Blog aside article p, main #Section8Home aside article p {
+    margin: 0; }
+
+main #Section2Blog aside .FilterPrice .btn, main #Section8Home aside .FilterPrice .btn {
+  background-color: #fefefe; }
+
+main #Section2Blog aside .FilterPrice .Fdiv, main #Section8Home aside .FilterPrice .Fdiv {
+  height: 3px;
+  width: 100%;
+  background-color: #9da4ab; }
+  main #Section2Blog aside .FilterPrice .Fdiv .Sdiv, main #Section8Home aside .FilterPrice .Fdiv .Sdiv {
+    background-color: black;
+    height: 3px;
+    width: 70%; }
+  main #Section2Blog aside .FilterPrice .Fdiv:after, main #Section8Home aside .FilterPrice .Fdiv:after {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 0px; }
+  main #Section2Blog aside .FilterPrice .Fdiv:before, main #Section8Home aside .FilterPrice .Fdiv:before {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 128px; }
+
+main #Section2Blog aside .FilterColor ul, main #Section8Home aside .FilterColor ul {
+  font-size: 15px;
+  color: #5e656b; }
+  main #Section2Blog aside .FilterColor ul:first-child, main #Section8Home aside .FilterColor ul:first-child {
+    padding-left: 16px; }
+
+main #Section2Blog aside .media, main #Section8Home aside .media {
+  cursor: pointer; }
+  main #Section2Blog aside .media img, main #Section8Home aside .media img {
+    width: 64px; }
+
+main #Section2Blog aside .media-body, main #Section8Home aside .media-body {
+  font-size: 12px; }
+  main #Section2Blog aside .media-body i, main #Section8Home aside .media-body i {
+    color: #9da4ab; }
+  main #Section2Blog aside .media-body h5, main #Section8Home aside .media-body h5, main #Section2Blog aside .media-body h6, main #Section8Home aside .media-body h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+main #Section1Contact {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg); }
+
+main #Section2Contact, main #Section10Home {
+  padding-bottom: 6rem; }
+  main #Section2Contact .detail i, main #Section10Home .detail i {
+    font-size: 2.5rem;
+    padding-bottom: 24px; }
+    main #Section2Contact .detail i:hover, main #Section10Home .detail i:hover {
+      color: #fbca03;
+      cursor: pointer;
+      transition-duration: 0.5s; }
+  main #Section2Contact .SecForm, main #Section10Home .SecForm {
+    width: 55%; }
+    main #Section2Contact .SecForm .form textarea, main #Section10Home .SecForm .form textarea {
+      height: 190px;
+      width: 100%; }
+    main #Section2Contact .SecForm .form .form-control, main #Section10Home .SecForm .form .form-control {
+      border-radius: 0; }
+      main #Section2Contact .SecForm .form .form-control:focus, main #Section10Home .SecForm .form .form-control:focus {
+        border-color: #fbca03;
+        box-shadow: 0 0 2px #fbca03; }
+
+main #Section3Contact #map, main #Section11Home #map {
+  height: 350px;
+  width: 100%; }
+
+main #Section1Home {
+  background-image: url(../../Dis/Images/index/section-bg-1.jpg) !important;
+  background-position: top;
+  background-size: cover;
+  height: 111vh; }
+  main #Section1Home article h1 {
+    font-size: 56px; }
+  main #Section1Home article .p2 {
+    font-family: "Lato", sans-serif !important;
+    width: 58%;
+    font-size: 13px; }
+  main #Section1Home article .btn {
+    background-color: #fefefe;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+    main #Section1Home article .btn:hover {
+      background-color: #fbca03; }
+    @media only screen and (max-width: 786px) {
+      main #Section1Home article .btn {
+        width: 100% !important; } }
+
+main #Section3Home, main #Section7Home {
+  background-image: url(../../Dis/Images/index/section-bg-4.jpg);
+  background-position: top;
+  height: auto; }
+  main #Section3Home article .btn, main #Section7Home article .btn {
+    background-color: #fefefe;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+    main #Section3Home article .btn:hover, main #Section7Home article .btn:hover {
+      background-color: #fbca03; }
+  main #Section3Home img, main #Section7Home img {
+    width: 400px; }
+  @media only screen and (max-width: 786px) and (min-width: 576px) {
+    main #Section3Home .btn, main #Section7Home .btn {
+      width: 100% !important; } }
+
+main #Section4Home article.title {
+  display: inline-block; }
+
+main #Section4Home h4:after {
+  border: 1px solid black !important; }
+
+main #Section4Home .sec3Fig .overlay img {
+  width: 30px; }
+  main #Section4Home .sec3Fig .overlay img:nth-child(2) {
+    margin-left: 40px; }
+
+main #Section4Home .sec3Fig .overlay p {
+  font-size: 12px; }
+
+main #Section4Home .sec3Fig .overlay h6 {
+  font-family: "Raleway", sans-serif; }
+
+main #Section6Home .btn:hover {
+  background-color: #fbca03; }
+
+main #Section6Home article .btn {
+  background-color: #fefefe;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section6Home article ul {
+  font-family: "Lato", sans-serif;
+  font-size: 13px; }
+
+@media only screen and (max-width: 786px) {
+  main #Section6Home .btn {
+    width: 100% !important; } }
+
+main #Section7Home {
+  height: auto;
+  background-image: url(../../Dis/Images/index/section-bg-19.jpg);
+  background-position: bottom;
+  background-size: cover; }
+  main #Section7Home .cirImg {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%; }
+    main #Section7Home .cirImg:hover {
+      transition-duration: 0.5s;
+      background-color: #fbca03;
+      border-color: #fbca03; }
+      main #Section7Home .cirImg:hover i {
+        color: aliceblue; }
+  main #Section7Home .btn:hover {
+    background-color: #fbca03; }
+  main #Section7Home .supParagraph {
+    font-size: 11px;
+    margin-left: 34px; }
+  main #Section7Home span {
+    font-size: 13px; }
+
+main #Section9Home .title h4:after {
+  left: 47%; }
+
+main #Section10Home {
+  padding-bottom: 0; }

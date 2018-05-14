@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../Dis/Css/AllStyles.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="../Fonts/fontawesome-free-5.0.7/web-fonts-with-css/css/fontawesome-all.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lato|Raleway:700" rel="stylesheet">
+	<title>Shopping Item</title>
+</head>
+
+<body class="m-0 p-0">
+	<!--        headerIcons-->
+	<header class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent bg-white">
+			<a class="navbar-brand" href="./index.html">
+				<img src="../Dis/Images/index/logo-dark.png" alt="logo" />
+			</a>
+			<button class="btn bg-transparent navbar-toggler" type="button" style="z-index: 999" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-5">
+					<li class="nav-item ml-3"><a class="nav-link" href="./index.html">Home</a>
+					</li>
+					<li class="nav-item ml-3"><a class="nav-link" href="./AboutUs.html">About</a>
+					</li>
+					<li class="nav-item dropdown ml-3"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                    </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="./Portfolio.html">Portfolio</a>  <a class="dropdown-item" href="./Portfolio-single.html">Portfolio single</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown ml-3"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Blog
+                    </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="./Blog.html">Blog</a>  <a class="dropdown-item" href="./BlogSingle.html">Blog single</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown ml-3"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop
+                    </a>
+						<div class="dropdown-menu ml-3" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="./ShopGrid.html">shop grid</a>
+							<a class="dropdown-item" href="./ShopList.html">shop list</a>
+							<a class="dropdown-item  active" href="./ShopItem.html">shop item</a> 
+						</div>
+					</li>
+					<li class="nav-item ml-3"><a class="nav-link" href="./Cart.html">Cart</a>
+					</li>
+					<li class="nav-item ml-3"><a class="nav-link" href="./Contacts.html">ContactUs</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="ulNav ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<button class="btn bg-white" type="button" aria-haspopup="true" aria-expanded="false"><span class="navbar-toggler-icon"></span>
+						</button>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item pb-3" href="#">
+							<div class="media">
+								<img class="align-self-start mr-3" src="../Dis/Images/shopGrid/widget-img-1.jpg" alt="Generic placeholder image">
+								<div class="media-body">
+									<article class="mt-0">
+										<h6 class="d-inline text-muted">Geometric Wodeen Vase</h6><i class="far fa-trash-alt"></i>
+										<p>$50.00</p>
+									</article>
+								</div>
+							</div>
+						</a>
+						<a class="dropdown-item pb-3" href="#">
+							<div class="media">
+								<img class="align-self-start mr-3" src="../Dis/Images/shopGrid/widget-img-3.jpg" alt="Generic placeholder image">
+								<div class="media-body">
+									<article class="mt-0">
+										<h6 class="d-inline text-muted">Geometric Wodeen Vase</h6><i class="far fa-trash-alt"></i>
+										<p>$50.00</p>
+									</article>
+								</div>
+							</div>
+						</a>
+						<a class="dropdown-item pb-3" href="#">
+							<div class="media-body">
+								<article class="artc mt-0 d-flex justify-content-between">
+									<p class="text-muted">Save Cart</p>
+									<h6>Total </h6>
+									<h6>$100.00</h6>
+								</article>
+							</div>
+						</a>
+						<a class="dropdown-item pb-3" href="#">
+							<div class="media-body pt-3">
+								<button class="btn">VIEW CART</button>
+								<button class="btn">CHECKOUT</button>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li class="nav-item"> <i class="far fa-user"></i>
+				</li>
+				<li class="nav-item"> <i class="far fa-heart"></i>
+				</li>
+				<li class="nav-item"> <i class="fa fa-shopping-cart"></i>
+				</li>
+				<li class="nav-item dropdown">
+					<div class="notify">2</div>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container-fluid p-0">
+		<!--            section1-->
+		<section id="Section1ShoppItem">
+			<div class="container row">
+				<div class="col-xs-12">
+					<article class="d-flex justify-content-center flex-column">
+						<p class="m-0">Shop Single Item</p>
+						<h1>White Moose Head</h1>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!--            section2-->
+		<section id="Section2ShoppItem">
+			<div class="container mx-auto p-5">
+				<div class="row container-fluid p-5">
+					<div class="col-lg-6 col-md-5 col-xs-12">
+						<div class="bgimg">
+							<img src="../Dis/Images/shopItem/shop-single-img-1.jpg" />
+						</div>
+						<div class="row smImg">
+							<div class="col-xs-3">
+								<img src="../Dis/Images/shopItem/shop-single-img-2.jpg" />
+							</div>
+							<div class="col-xs-3">
+								<img src="../Dis/Images/shopItem/shop-single-img-3.jpg" />
+							</div>
+							<div class="col-xs-3">
+								<img src="../Dis/Images/shopItem/shop-single-img-5.jpg" />
+							</div>
+							<div class="col-xs-3">
+								<img src="../Dis/Images/shopItem/shop-single-img-4.jpg" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-7 col-xs-12">
+						<div class="card-body arcle">
+							<div class="row w-100">
+								<h4 class="col-lg-8 col-xs-12">White Moose Head</h4>
+								<div class="col-xs-12 stars text-muted"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								</div>
+							</div>
+							<h6 class="mb-2 text-muted">by lora barns</h6>
+							<p class="card-text text-muted pb-0 pt-2">tag as a paragraph container. In plaintext files, there are two common formats, Pre-formatted text will have a newline at the end of every physical line,text will have a newline at the end of every physical line and two newlines at the end of a paragraph of every physical.</p> <span>Material:</span>
+							<p class="text-muted d-inline">Concrete</p>
+						</div>
+						<div class="card-body price py-4">
+							<h3 class="d-inline">$86.00</h3>
+							<p class="d-inline">$120.55</p>
+							<br/>
+							<select class="form-control d-inline mt-4">
+								<option selected>Choose Type</option>
+								<option>Old</option>
+								<option>Used</option>
+								<option>New</option>
+							</select>
+							<h5 class="d-inline">QTY</h5>
+							<div class="qty d-inline">2</div>
+						</div>
+						<div class="card-body btn-icon mt-3">
+							<button class="btn" type="button">ADD TO CART</button>
+							<div class="d-inline"><i class="far fa-heart"></i>
+							</div>
+							<div class="d-inline"><i class="fa fa-eye"></i>
+							</div>
+							<div class="d-inline"><i class="fas fa-link"></i>
+							</div>
+							<p class="font-italic text-muted pt-2">inserted manually and $75 preserved when flowing still</p>
+						</div>
+						<div class="card-body social mt-4">
+							<p class="d-inline">Categories :</p><span class="text-muted">Picture</span>
+							<br/>
+							<div class="row w-100 prop">
+								<div class="col-xs-3 float-left">
+									<p class="d-inline">Share:</p>
+								</div>
+								<div class="col-xs-3 float-left"><i class="fab fa-facebook-f"></i>
+								</div>
+								<div class="col-xs-3 float-left"><i class="fab fa-twitter"></i>
+								</div>
+								<div class="col-xs-3 float-left"><i class="fab fa-skype"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--            section3-->
+		<section id="Section3ShoppItem">
+			<div class="container mx-auto pl-5">
+				<div class="px-5 mb-5">
+					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+						<li class="nav-item"> <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">DESCRIPTION</a>
+						</li>
+						<li class="nav-item"> <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">REVIEW</a>
+						</li>
+						<li class="nav-item"> <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">SHOPPING</a>
+						</li>
+					</ul>
+					<div class="tab-content w-100" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+							<div class="detail">
+								<p>Measurment:</p>
+								<ul>
+									<li>18.5 tall(77cm)</li>
+									<li>11.5 tall(80cm)</li>
+									<li>25.5 tall(79cm)</li>
+								</ul>
+								<p>Handiling Instruction:</p>
+								<ul>
+									<li>will have a newline at the common formats.</li>
+									<li>there are two common formats alternative.</li>
+									<li>alternative is to only a newline at.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style="background-color: #f3efec;padding: 12px;">there are two common formats. Pre-formatted text will have a newline at the end of every physical line, and two newlines at the end of a paragraph, creating a blank line. An alternative is to only put newlines at the end of each paragraph, and leave word wrapping up to the application that displays or processes the text.</div>
+						<div class="tab-pane fade sizeshow" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" style="background-color: #f3efec;padding: 12px;">there are two common formats. Pre-formatted text will have a newline at the end of every physical line, and two newlines at the end of a paragraph, creating a blank line. An alternative is to only put newlines at the end of each paragraph, and leave word wrapping up to the application that displays or processes the text.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--            section4-->
+		<section id="Section4ShoppItem">
+			<div class="container mx-auto pl-5">
+				<div class="px-5 mb-5">
+					<h4>Related Products</h4>
+					<div class="row pt-5">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<figure>
+								<img src="../Dis/Images/shopGrid/img-7.jpg" />
+							</figure>
+							<figcaption>
+								<p class="d-inline">White Ladge</p><i class="far fa-heart"></i>
+								<p class="font-weight-bold">$36.00</p>
+							</figcaption>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<figure>
+								<img src="../Dis/Images/shopGrid/img-8.jpg" />
+							</figure>
+							<figcaption>
+								<p class="d-inline">Clock Ladge</p> <i class="far fa-heart"></i>
+								<p class="font-weight-bold">$89.00</p>
+							</figcaption>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<figure>
+								<img src="../Dis/Images/shopGrid/img-9.jpg" />
+							</figure>
+							<figcaption>
+								<p class="d-inline">White chair</p><i class="far fa-heart"></i>
+								<p class="font-weight-bold">$66.00</p>
+							</figcaption>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<figure>
+								<img src="../Dis/Images/shopGrid/img-3.jpg" />
+							</figure>
+							<figcaption>
+								<p class="d-inline">Polard Lamp</p> <i class="far fa-heart"></i>
+								<p class="font-weight-bold">$34.00</p>
+							</figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container p-5 ">
+			<div class="row mx-auto p-4">
+				<div class="col-lg-4 col-md-12 col-xs-12">
+					<article class="aboutDetail">
+						<h4>About Us</h4>
+						<p>The oldest classical Greek and Latin writing had little or no space between words and could be written in boustrophedon alternating directions Over time, text direction left to right became standardized.</p>
+						<p><i class="fa fa-map-marker-alt"></i>90-120Sawston,Melburne,Australia</p>
+						<p><i class="fa fa-phone"></i>+128 2569 2365or+128 5488 5699</p>
+						<p><i class="far fa-envelope"></i>support@gtcmlu.com</p>
+					</article>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12">
+					<article class="aboutDetail">
+						<h4>Recent News</h4> 
+						<table class="Aboutus">
+							<tr>
+								<td>
+									<img src="../Dis/Images/index/img-9.jpg" />
+								</td>
+								<td>
+									<p>ancient manuscripts another sentences</p>
+									<p>14/07/2017</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="../Dis/Images/index/img-10.jpg" />
+								</td>
+								<td>
+									<p>modern English style is to use no indenting</p>
+									<p>14/07/2017</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="../Dis/Images/index/img-11.jpg" />
+								</td>
+								<td>
+									<p>manuscript of Beowulf Outdenting is still</p>
+									<p>14/07/2017</p>
+								</td>
+							</tr>
+						</table>
+					</article>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12">
+					<article class="aboutDetail">
+						<h4>Our Gallery</h4>
+						<table>
+							<tr>
+								<td>
+									<img src="../Dis/Images/index/img-1%20(1).jpg" />
+								</td>
+								<td>
+									<img src="../Dis/Images/index/img-2%20(1).jpg" />
+								</td>
+								<td>
+									<img src="../Dis/Images/index/img-3%20(1).jpg" />
+								</td>
+								<td>
+									<img src="../Dis/Images/index/img-4%20(1).jpg" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="../Dis/Images/index/img-5.jpg" />
+								</td>
+								<td>
+									<img src="../Dis/Images/index/img-6.jpg" />
+								</td>
+								<td>
+									<img src="../Dis/Images/index/img-7.jpg" />
+								</td>
+								<td>
+									<img src="../Dis/Images/index/img-8.jpg" />
+								</td>
+							</tr>
+						</table>
+					</article>
+				</div>
+			</div>
+		</div>
+		<div class="copy">
+			<p class="text-center d-flex flex-column justify-content-center h-100">copyright©made by <span>Huda Salah</span>
+			</p>
+		</div>
+	</footer>
+	<script src="../Dis/Js/jquery-3.1.1.min.js"></script>
+	<script src="../Dis/Js/shopItem.js"></script><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
+</html>

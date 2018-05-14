@@ -1,0 +1,236 @@
+main #Section2Cart .rowlg .input-group1 button.btnUpdate {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  font-family: "Raleway", sans-serif; }
+
+main #Section2Cart .rowlg .input-group1 button.btnUpdate:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+header .navbar-nav li.active a:after, footer article.aboutDetail h4:after, main #Section3Cart h4:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section3Cart .CalcShipp p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  position: relative; }
+
+main #Section2Cart .rowlg .input-group .btn, main #Section3Cart .CardTotal .btn {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2Cart .rowlg .input-group .btn:focus, main #Section3Cart .CardTotal .btn:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section2Cart .rowlg .form-control, main #Section3Cart .CalcShipp .form-control, main #Section3Cart .CalcShipp .custom-select {
+  border-radius: 0; }
+  main #Section2Cart .rowlg .form-control:focus, main #Section3Cart .CalcShipp .form-control:focus, main #Section3Cart .CalcShipp .custom-select:focus {
+    border-color: #fbca03;
+    box-shadow: 0 0 2px #fbca03; }
+
+body {
+  box-sizing: border-box; }
+
+header {
+  z-index: 999; }
+  header .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header .navbar-nav a:hover {
+      color: #fbca03; }
+  header .navbar-nav .dropdown-item {
+    text-align: center; }
+  header .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+header button.bg-white:hover {
+  background-color: #fbca03 !important;
+  transition-duration: 1s; }
+
+header ul.ulNav {
+  margin-bottom: 0;
+  margin-top: 5px; }
+  header ul.ulNav li {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 17px;
+    cursor: pointer; }
+    header ul.ulNav li:first-child button {
+      margin-top: -6px; }
+    header ul.ulNav li .notify {
+      background-color: #fbca03;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-left: -12px; }
+    header ul.ulNav li:hover {
+      color: #fbca03;
+      transition-duration: 0.5s; }
+
+main #Section1Cart {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1Cart article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1Cart article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1Cart article h1 {
+      font-family: "Raleway", sans-serif; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+main #Section1Cart {
+  background-image: url(../../Dis/Images/shopGrid/section-bg-shop.jpg); }
+
+main #Section2Cart table {
+  font-family: "Lato", sans-serif;
+  font-size: 13px; }
+  main #Section2Cart table tr:first-child {
+    background-color: #eaeaf1;
+    height: 35px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+    main #Section2Cart table tr:first-child th:first-child {
+      width: 40%; }
+  main #Section2Cart table tr:nth-child(2), main #Section2Cart table tr:nth-child(3) {
+    border-bottom: 1px solid #eaeaf1;
+    height: 160px; }
+  main #Section2Cart table .bordSecTd {
+    border: 1px solid #eaeaf1;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    padding: 9px;
+    color: #9da4ab; }
+  main #Section2Cart table h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 17px; }
+  main #Section2Cart table img {
+    width: 109px; }
+  main #Section2Cart table td p.mute {
+    color: #9da4ab; }
+  main #Section2Cart table i:hover {
+    color: #fbca03;
+    cursor: pointer;
+    transition-duration: 0.5s; }
+
+main #Section2Cart .rowlg {
+  width: 101%; }
+  main #Section2Cart .rowlg .input-group {
+    width: 80%; }
+    @media only screen and (max-width: 768px) {
+      main #Section2Cart .rowlg .input-group {
+        width: 100%; } }
+  main #Section2Cart .rowlg .input-group1 button.btnUpdate {
+    background-color: aliceblue;
+    font-size: 13px;
+    position: absolute;
+    right: 0; }
+    @media only screen and (max-width: 576px) {
+      main #Section2Cart .rowlg .input-group1 button.btnUpdate {
+        width: 100%; } }
+  main #Section2Cart .rowlg .clear-fix {
+    clear: both; }
+
+main #Section3Cart h4 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 40px;
+  position: relative; }
+  main #Section3Cart h4:after {
+    top: 38px;
+    left: 3px;
+    margin: 7px 0; }
+
+main #Section3Cart .CalcShipp p {
+  margin-bottom: 2px; }
+
+main #Section3Cart .CalcShipp .custom-select {
+  font-family: "Lato", sans-serif;
+  font-size: 13px; }
+
+@media only screen and (min-width: 992px) {
+  main #Section3Cart .CalcShipp {
+    width: 400px; } }
+
+main #Section3Cart .CardTotal {
+  width: 300px;
+  margin: 0 auto; }
+  main #Section3Cart .CardTotal table tr td:first-child {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    width: 70%; }
+  @media only screen and (max-width: 768px) {
+    main #Section3Cart .CardTotal {
+      margin: 20px 0; } }

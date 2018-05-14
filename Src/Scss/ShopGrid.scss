@@ -1,0 +1,146 @@
+@import "common.scss"; //import header nav footer
+
+header
+{
+    @extend %headerIcons;
+    @extend %nav;
+    .dropdown-toggle:after
+    {
+        display: none;
+    }
+    .nav-link
+    {
+        padding: 0;
+    }
+    .media-body
+    {
+        h6
+        {
+            font-family: $fontRaleway;
+            font-size: 12px;
+            margin-right: 34px;
+        }
+        i{
+         color: $text-muted;
+            &:hover{color: $main-color;}
+        }
+        p{
+            font-family: $fontRaleway;
+        }
+        
+        .btn
+        {
+            @extend %btn;
+           
+        }
+        
+         button:first-child{
+                background-color: $white-color;
+                box-shadow:$box-shadow;
+            }
+        button:nth-child(2)
+        {
+            width: 130px;
+            margin-left: 32px;
+        }
+    }
+   
+    .dropdown-menu
+    {
+        background-color: #ffffffef;
+        box-shadow:$box-shadow;
+        left: auto !important;
+        right: 0 !important;
+        .dropdown-item
+    {
+        border-bottom: solid 1px #ccd8e4;
+        &:last-child
+        {
+            border: none;
+        }
+        img{width: 64px;}
+    }
+    }
+    
+    
+    .artc
+    {
+        p{font-family: $fontLato;margin-right: 79px;}
+        .text-muted:hover{color: aqua !important;}
+        h6{font-family:$fontRaleway; margin-top: 5px;}
+    }
+}
+
+main
+{
+   #Section1ShopGrid
+    {
+        @extend %First-section;
+        background-image: url(../../Dis/Images/shopGrid/section-bg-shop.jpg);
+    }
+    
+    #Section2ShopGrid
+    {
+       @extend %navblog;
+        
+        .gallar
+        { 
+            figure
+            { 
+                @extend %figure;
+                
+                img{
+                    width: 100%;
+                    cursor: pointer;
+                   }
+                .overlay
+                    {
+                        @extend %overlayImg;
+                        
+                        .btn{@extend %btn;background-color:$white-color;box-shadow:$box-shadow;width: 120px;
+                            &:hover{background-color: $main-color;}}
+                    }
+            }
+            
+        
+        figcaption
+        {
+            p{
+                &:first-child{
+                    font-family: 'Raleway', sans-serif;
+                    color: $text-muted;
+                   font-size: 14px;
+                    cursor: pointer;
+                    &:hover{color: $main-color;transition-duration: 0.5s;}
+                }
+            }
+            
+            i{
+              position: absolute;
+                color: $text-muted;
+                right: 20px;
+                margin-top: 6px;
+                 &:hover
+                    {
+                        color: crimson;
+                        cursor: pointer;
+                    }
+                
+            }
+                   
+        }
+            
+        }
+        
+        .pagenate
+        {
+             @extend %pagenate;
+           
+        }
+        
+        aside{
+          @extend %aside;
+            
+        }
+    }
+}

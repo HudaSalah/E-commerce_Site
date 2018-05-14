@@ -1,0 +1,358 @@
+main #Section2Blog aside article, main #Section2Blog aside .latestNews {
+  border-bottom: 1px solid #dcdbd9; }
+
+main #Section2Blog aside .FilterPrice .btn {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  font-family: "Raleway", sans-serif; }
+
+main #Section2Blog aside .FilterPrice .btn:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+header .navbar-nav li.active a:after, main #Section2Blog aside h4:after, footer article.aboutDetail h4:after, main #Section2Blog figcaption h6:last-child:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section2Blog aside h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  position: relative; }
+
+main #Section2Blog aside button.filt, main #Section2Blog aside .FilterPrice .btn, header .media-body .btn, main #Section2Blog aside .Tags .btn {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2Blog aside button.filt:focus, main #Section2Blog aside .FilterPrice .btn:focus, header .media-body .btn:focus, main #Section2Blog aside .Tags .btn:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section2Blog figure {
+  position: relative; }
+  main #Section2Blog figure img {
+    width: 100%; }
+  main #Section2Blog figure:hover .overlay {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+main #Section2Blog .overlay {
+  background-color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+body {
+  box-sizing: border-box; }
+
+header {
+  z-index: 999; }
+  header .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header .navbar-nav a:hover {
+      color: #fbca03; }
+  header .navbar-nav .dropdown-item {
+    text-align: center; }
+  header .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+header button.bg-white:hover {
+  background-color: #fbca03 !important;
+  transition-duration: 1s; }
+
+header ul.ulNav {
+  margin-bottom: 0;
+  margin-top: 5px; }
+  header ul.ulNav li {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 17px;
+    cursor: pointer; }
+    header ul.ulNav li:first-child button {
+      margin-top: -6px; }
+    header ul.ulNav li .notify {
+      background-color: #fbca03;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-left: -12px; }
+    header ul.ulNav li:hover {
+      color: #fbca03;
+      transition-duration: 0.5s; }
+
+main #Section1Blog {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1Blog article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1Blog article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1Blog article h1 {
+      font-family: "Raleway", sans-serif; }
+
+main #Section2Blog .pagenate ul img {
+  width: 16px; }
+
+main #Section2Blog .pagenate ul .page-link:hover {
+  background-color: #fbca03 !important; }
+
+main #Section2Blog .pagenate ul .page-link, main #Section2Blog .pagenate ul a {
+  color: black !important; }
+
+@media only screen and (max-width: 960px) {
+  main #Section2Blog aside#mySidebar {
+    display: none; } }
+
+main #Section2Blog aside button.filt {
+  width: 100%; }
+
+main #Section2Blog aside .search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px; }
+  main #Section2Blog aside .search input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #dcdbd9;
+    text-indent: 20px; }
+  main #Section2Blog aside .search .fa-search {
+    position: absolute;
+    top: 8px;
+    right: 16px; }
+
+main #Section2Blog aside article {
+  padding-bottom: 7px;
+  font-family: "Lato", sans-serif; }
+  main #Section2Blog aside article p {
+    margin: 0; }
+
+main #Section2Blog aside .FilterPrice .btn {
+  background-color: #fefefe; }
+
+main #Section2Blog aside .FilterPrice .Fdiv {
+  height: 3px;
+  width: 100%;
+  background-color: #9da4ab; }
+  main #Section2Blog aside .FilterPrice .Fdiv .Sdiv {
+    background-color: black;
+    height: 3px;
+    width: 70%; }
+  main #Section2Blog aside .FilterPrice .Fdiv:after {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 0px; }
+  main #Section2Blog aside .FilterPrice .Fdiv:before {
+    content: "";
+    height: 18px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: -7px;
+    left: 128px; }
+
+main #Section2Blog aside .FilterColor ul {
+  font-size: 15px;
+  color: #5e656b; }
+  main #Section2Blog aside .FilterColor ul:first-child {
+    padding-left: 16px; }
+
+main #Section2Blog aside .media {
+  cursor: pointer; }
+  main #Section2Blog aside .media img {
+    width: 64px; }
+
+main #Section2Blog aside .media-body {
+  font-size: 12px; }
+  main #Section2Blog aside .media-body i {
+    color: #9da4ab; }
+  main #Section2Blog aside .media-body h5, main #Section2Blog aside .media-body h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+header .dropdown-toggle:after {
+  display: none; }
+
+header .nav-link {
+  padding: 0; }
+
+header .media-body h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin-right: 34px; }
+
+header .media-body i {
+  color: #9da4ab; }
+  header .media-body i:hover {
+    color: #fbca03; }
+
+header .media-body p {
+  font-family: "Raleway", sans-serif; }
+
+header .media-body button:first-child {
+  background-color: #fefefe;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+header .media-body button:nth-child(2) {
+  width: 130px;
+  margin-left: 32px; }
+
+header .dropdown-menu {
+  background-color: #ffffffef;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  left: auto !important;
+  right: 0 !important; }
+  header .dropdown-menu .dropdown-item {
+    border-bottom: solid 1px #ccd8e4; }
+    header .dropdown-menu .dropdown-item:last-child {
+      border: none; }
+    header .dropdown-menu .dropdown-item img {
+      width: 64px; }
+
+header .artc p {
+  font-family: "Lato", sans-serif;
+  margin-right: 79px; }
+
+header .artc .text-muted:hover {
+  color: aqua !important; }
+
+header .artc h6 {
+  font-family: "Raleway", sans-serif;
+  margin-top: 5px; }
+
+main #Section1Blog {
+  background-image: url(../../Dis/Images/blog/section-bg-11.jpg); }
+
+main #Section2Blog .overlay img {
+  width: 30px; }
+  main #Section2Blog .overlay img:nth-child(2) {
+    margin-left: 40px; }
+
+main #Section2Blog figcaption {
+  margin-bottom: 25px; }
+  main #Section2Blog figcaption h4 {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-size: 17px; }
+    @media only screen and (max-width: 768px) and (min-width: 576px) {
+      main #Section2Blog figcaption h4 {
+        font-size: 10px; } }
+  main #Section2Blog figcaption h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    position: relative; }
+    main #Section2Blog figcaption h6:last-child:after {
+      cursor: pointer; }
+  main #Section2Blog figcaption p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px; }
+    @media only screen and (max-width: 768px) and (min-width: 576px) {
+      main #Section2Blog figcaption p {
+        font-size: 7px; } }
+
+main #Section2Blog aside p {
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  color: #717477; }
+
+main #Section2Blog aside .Insta table img {
+  width: 60px;
+  margin-right: 4px;
+  margin-bottom: 4px; }
+
+main #Section2Blog aside .latestNews {
+  padding-bottom: 12px; }
+  main #Section2Blog aside .latestNews img {
+    width: 100%; }
+  main #Section2Blog aside .latestNews h5 {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif; }
+
+main #Section2Blog aside .list-unstyled h6 {
+  font-size: 13px;
+  color: #9da4ab; }
+
+main #Section2Blog aside .Tags .btn {
+  background-color: white;
+  border: 1px solid #dcdbd9;
+  color: #9da4ab;
+  margin-right: 6px;
+  margin-bottom: 6px; }

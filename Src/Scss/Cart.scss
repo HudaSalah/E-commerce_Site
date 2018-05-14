@@ -1,0 +1,188 @@
+@import "common.scss"; //import header nav footer
+
+header
+{
+    @extend %headerIcons;
+    @extend %nav;
+}
+
+main
+{
+    #Section1Cart
+    {
+        @extend %First-section;
+        background-image: url(../../Dis/Images/shopGrid/section-bg-shop.jpg);
+    }
+    
+     
+    #Section2Cart
+    {
+        table{
+            
+            font-family: $fontLato;
+            font-size: 13px;
+            
+            tr:first-child
+            {
+                background-color:$sec-color;
+                height: 35px;
+                font:{
+                    family:$fontRaleway;
+                    size:14px;
+                }
+                
+                th:first-child
+                {
+                    width: 40%;
+                }
+            }
+            
+            tr:nth-child(2) , tr:nth-child(3)
+            {
+                border-bottom: 1px solid $sec-color;
+                height: 160px;
+            }
+            
+            .bordSecTd
+            {
+                border: 1px solid $sec-color;
+                    width: 30px;
+                    height: 35px;
+                    text-align: center;
+                    padding: 9px;
+                color: $text-muted;
+            }
+            h4
+            {
+                font:{
+                    family: $fontRaleway;
+                    size:17px
+                }
+            }
+            img{width: 109px;}
+            
+            td{p.mute{color:  $text-muted;}}
+            i:hover{color: $main-color;cursor: pointer;transition-duration: 0.5s;}
+        }
+        
+        .rowlg
+        {
+            width: 101%;
+        
+        .input-group
+        {
+            width: 80%;
+            .btn
+            {
+                @extend %btn;
+            }
+            
+             @media only screen and (max-width:768px)
+            {
+                width:100%;  
+            }
+        }
+       
+            .input-group1
+            {
+              button.btnUpdate
+                {
+                    @extend %btnCommon;
+                    background-color: aliceblue;
+                    font-size: 13px;
+                    position: absolute;
+                    right: 0;
+                    &:hover{
+                        @extend  %btn-light-hover;
+                    }
+                    
+                  @media only screen and (max-width:576px)
+                    { width: 100%;}  
+            
+                } 
+                
+            
+            }
+            
+          
+            
+           
+      
+        
+        .form-control
+        {
+          @extend %form-control;
+        }
+        .clear-fix
+        {
+            clear: both;
+        }
+    }
+    
+    }
+    #Section3Cart
+    {
+         h4
+            {
+                font-family:  $fontRaleway;
+                margin-bottom: 40px;
+                position: relative;
+                &:after
+                {
+                    @extend %Line-after;
+                        top: 38px;
+                        left: 3px;
+                    margin:7px 0;
+                }
+            }
+        
+        .CalcShipp
+        {
+              p
+                {
+                   @extend %h4-prop; 
+                    margin-bottom: 2px;
+                }
+            
+             .form-control , .custom-select
+                {
+                  @extend %form-control;
+                }
+            .custom-select
+            {
+               font-family: $fontLato; 
+                font-size: 13px;
+            }
+            @media only screen and (min-width:992px) 
+            {
+                width: 400px;
+            }
+        }
+        
+        .CardTotal
+        {
+            width: 300px;
+            margin: 0 auto;
+            table{
+                tr{
+                    td:first-child
+                    {
+                        font-family:$fontRaleway;
+                        font-size: 13px;
+                        width: 70%;
+                    }
+                }
+            }
+            .btn
+            {
+                @extend %btn;
+            }
+            
+            @media only screen and (max-width:768px) 
+            {
+                margin: 20px 0;
+            }
+            
+        }
+    }
+}

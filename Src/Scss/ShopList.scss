@@ -1,0 +1,148 @@
+@import "common.scss"; //import header nav footer
+
+header
+{
+    @extend %headerIcons;
+    @extend %nav;
+    
+    .dropdown-toggle:after
+    {
+        display: none;
+    }
+    .nav-link
+    {
+        padding: 0;
+    }
+    .media-body
+    {
+        h6
+        {
+            font-family: $fontRaleway;
+            font-size: 12px;
+            margin-right: 34px;
+        }
+        i{
+         color: $text-muted;
+            &:hover{color: $main-color;}
+        }
+        p{
+            font-family: $fontRaleway;
+        }
+        
+        .btn
+        {
+            @extend %btn;
+           
+        }
+        
+         button:first-child{
+                background-color: $white-color;
+                box-shadow:$box-shadow;
+            }
+        button:nth-child(2)
+        {
+            width: 130px;
+            margin-left: 32px;
+        }
+    }
+    .dropdown-menu
+    {
+        background-color: #ffffffef;
+        box-shadow:$box-shadow;
+        .dropdown-item
+    {
+        border-bottom: solid 1px #ccd8e4;
+        &:last-child
+        {
+            border: none;
+        }
+        img{width: 64px;}
+    }
+    }
+    
+    
+    .artc
+    {
+        p{font-family: $fontLato;margin-right: 79px;}
+        .text-muted:hover{color: aqua !important;}
+        h6{font-family:$fontRaleway; margin-top: 5px;}
+    }
+}
+
+main
+{
+   #Section1ShopList
+    {
+        @extend %First-section;
+        background-image: url(../../Dis/Images/shopGrid/section-bg-shop.jpg);
+    }
+    
+    #Section2ShopList
+    {
+       @extend %navblog;
+        .pagenate
+        {
+            @extend %pagenate;
+           
+        }
+        
+     aside
+        {
+           @extend %aside;  
+         }
+        
+        .media
+        {
+            img{
+                position: relative;
+            }
+            .saleAdv
+            {
+               @extend %saleAdv;
+            }
+        }
+        .media-body
+        {
+            .fa-star{color: $text-muted;font-size: 12px;}
+            h5{
+                font-family: $fontRaleway;margin-top: 10px;
+            }
+            h6
+            {
+                color:$main-color;
+            }
+            p{
+                font-family: $fontLato;
+                color: #8d949a;font-size: 15px;
+            }
+            
+          .btn-icon
+            {   padding:0;
+                button
+                {
+                    @extend %btn;
+                    width: 143px;
+                    height: 40px;
+                    margin-top: -3px;
+                    @media only screen and (max-width:508px)
+                    {
+                        margin-bottom: 21px;
+                        width: 100%;
+                    }
+                }
+            
+                div
+                {
+                    background-color:#efeeea;
+                        width: 42px;
+                        height: 41px;
+                        margin-left: 3px;
+                        padding: 10px;
+                        text-align: center;
+                }
+           }
+        }
+        
+   
+    }
+}

@@ -1,0 +1,166 @@
+main #Section2PortfolioS .scroll button:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+header nav .navbar-nav li.active a:after, footer article.aboutDetail h4:after, main #Section4PortfolioS h4:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section2PortfolioS .scroll button {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2PortfolioS .scroll button:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+body {
+  box-sizing: border-box; }
+
+header nav {
+  z-index: 999; }
+  header nav .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header nav .navbar-nav a:hover {
+      color: #fbca03; }
+  header nav .navbar-nav .dropdown-item {
+    text-align: center; }
+  header nav .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header nav .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header nav .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header nav .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+main #Section1PortfolioS {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1PortfolioS article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1PortfolioS article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1PortfolioS article h1 {
+      font-family: "Raleway", sans-serif; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+main #Section1PortfolioS {
+  background-image: url(../../Dis/Images/portfolio/section-bg-8.jpg);
+  background-position: top; }
+
+main #Section2PortfolioS img {
+  width: 100%; }
+
+main #Section2PortfolioS h4, main #Section2PortfolioS h6 {
+  font-family: "Raleway", sans-serif;
+  margin: 0; }
+
+main #Section2PortfolioS p {
+  font-family: "Lato", sans-serif; }
+
+main #Section2PortfolioS .social p {
+  font-family: "Raleway", sans-serif; }
+
+main #Section2PortfolioS .social i {
+  margin-left: 20px; }
+  main #Section2PortfolioS .social i:hover {
+    color: black !important;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+main #Section2PortfolioS .detail p {
+  font-size: 13px; }
+
+@media only screen and (max-width: 768px) {
+  main #Section2PortfolioS .detail {
+    margin-top: 15px; } }
+
+main #Section2PortfolioS .scroll {
+  height: 70px;
+  border-top: 1px solid #e8ecec;
+  border-bottom: 1px solid #e8ecec; }
+  main #Section2PortfolioS .scroll button {
+    width: 90px;
+    height: 40px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+    background-color: white; }
+    main #Section2PortfolioS .scroll button img {
+      width: 17px;
+      margin-right: 6px; }
+  main #Section2PortfolioS .scroll img {
+    width: 44px; }
+
+main #Section4PortfolioS h4 {
+  font-family: "Raleway", sans-serif;
+  position: relative; }
+  main #Section4PortfolioS h4:after {
+    margin: -13px 0; }
+
+main #Section4PortfolioS img {
+  width: 100%; }

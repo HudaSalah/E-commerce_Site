@@ -1,0 +1,180 @@
+@import "common.scss"; //import header nav footer
+
+header
+{
+    @extend %headerIcons;
+    @extend %nav;
+    .dropdown-toggle:after
+    {
+        display: none;
+    }
+    .nav-link
+    {
+        padding: 0;
+    }
+    .media-body
+    {
+        h6
+        {
+            font-family: $fontRaleway;
+            font-size: 12px;
+            margin-right: 34px;
+        }
+        i{
+         color: $text-muted;
+            &:hover{color: $main-color;}
+        }
+        p{
+            font-family: $fontRaleway;
+        }
+        
+        .btn
+        {
+            @extend %btn;
+           
+        }
+        
+         button:first-child{
+                background-color: $white-color;
+                box-shadow:$box-shadow;
+            }
+        button:nth-child(2)
+        {
+            width: 130px;
+            margin-left: 32px;
+        }
+    }
+    .dropdown-menu
+    {
+        background-color: #ffffffef;
+        box-shadow:$box-shadow;
+        left: auto !important;
+        right: 0 !important;
+        .dropdown-item
+    {
+        border-bottom: solid 1px #ccd8e4;
+        &:last-child
+        {
+            border: none;
+        }
+        img{width: 64px;}
+    }
+    }
+    
+    
+    .artc
+    {
+        p{font-family: $fontLato;margin-right: 79px;}
+        .text-muted:hover{color: aqua !important;}
+        h6{font-family:$fontRaleway; margin-top: 5px;}
+    }
+}
+
+main
+{
+   #Section1Blog
+    {
+        @extend %First-section;
+        background-image: url(../../Dis/Images/blog/section-bg-11.jpg);
+    }
+    
+    #Section2Blog
+    {
+         figure
+            { 
+                @extend %figure;
+            }
+            
+            .overlay
+            {
+                    @extend %overlayImg;
+                img{
+                    width: 30px;
+                    &:nth-child(2)
+                    {
+                        margin-left: 40px;
+                    }
+                }
+            }
+            
+            figcaption
+            {
+                margin-bottom: 25px;
+                h4
+                {
+                   font-family:$fontRaleway;
+                    margin: 0;
+                    font-size: 17px;
+                    @media only screen and (max-width:768px) and (min-width:576px)
+                    {
+                     font-size: 10px;   
+                    }
+                }
+                h6{ font-family:$fontRaleway;font-size: 12px;position: relative;
+                    &:last-child:after
+                    {
+                        @extend %Line-after;
+                        cursor: pointer;
+                    }
+                  }
+                p
+                {
+                   font-family:$fontLato; 
+                    font-size: 12px;
+                    @media only screen and (max-width:768px) and (min-width:576px)
+                    {
+                     font-size: 7px;   
+                    }
+                }
+               
+            }
+        .pagenate
+        {
+             @extend %pagenate;
+        }
+        
+        aside
+        {
+          @extend %aside; 
+            p{font: {size:13px;family:$fontLato;}; color:#717477;}
+            
+            
+            .Insta
+            {
+                table{
+                    img
+                    {    width: 60px;
+                        margin-right: 4px;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+            .latestNews
+            {
+                @extend %border-bottom;
+                padding-bottom: 12px;
+                img{width: 100%;}
+                h5{font: {size:15px;family:$fontRaleway;};}
+            }
+            
+            .list-unstyled
+            {
+                h6{font-size: 13px;color:$text-muted;} 
+            }
+            
+            .Tags
+            {
+                .btn
+                {
+                    @extend %btn;
+                    background-color: white;
+                    border:1px solid #dcdbd9;
+                    color:$text-muted;
+                    margin-right: 6px;
+                    margin-bottom: 6px;
+                }
+            }
+        }
+        
+    }
+}

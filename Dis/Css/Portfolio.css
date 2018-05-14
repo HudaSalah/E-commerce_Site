@@ -1,0 +1,180 @@
+main #Section2Portfolio .btn {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  font-family: "Raleway", sans-serif; }
+
+main #Section2Portfolio .btn:hover {
+  background-color: #fbca03;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+main #Section2Portfolio .listNav .nav-link:hover {
+  color: #fbca03;
+  cursor: pointer;
+  transition-duration: 0.5s; }
+
+header nav .navbar-nav li.active a:after, footer article.aboutDetail h4:after, main #Section2Portfolio .listNav .active:after {
+  content: " ";
+  position: absolute;
+  margin: -7px 0;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #fbca03; }
+
+main #Section2Portfolio .btn {
+  background-color: #fbca03;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  border-radius: 0; }
+  main #Section2Portfolio .btn:focus {
+    border-color: #fbca03;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15); }
+
+main #Section2Portfolio .Gallery figure {
+  position: relative; }
+  main #Section2Portfolio .Gallery figure img {
+    width: 100%; }
+  main #Section2Portfolio .Gallery figure:hover .overlay {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+main #Section2Portfolio .Gallery .overlay {
+  background-color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+
+body {
+  box-sizing: border-box; }
+
+header nav {
+  z-index: 999; }
+  header nav .navbar-nav a {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.61); }
+    header nav .navbar-nav a:hover {
+      color: #fbca03; }
+  header nav .navbar-nav .dropdown-item {
+    text-align: center; }
+  header nav .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important; }
+  header nav .navbar-nav button.bg-white:hover {
+    background-color: #fbca03 !important;
+    transition-duration: 1s; }
+  header nav .navbar-nav li.active a {
+    color: #fbca03 !important;
+    position: relative; }
+    header nav .navbar-nav li.active a:after {
+      width: 45px;
+      bottom: 5px; }
+
+main #Section1Portfolio {
+  background-image: url(../../Dis/Images/contact/section-bg-10.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 270px;
+  filter: brightness(102%); }
+  main #Section1Portfolio article {
+    position: absolute;
+    height: 270px;
+    left: 162px;
+    color: #303133; }
+    main #Section1Portfolio article p {
+      font-family: "Kaushan Script", cursive; }
+    main #Section1Portfolio article h1 {
+      font-family: "Raleway", sans-serif; }
+
+footer {
+  background-color: #313234; }
+  footer article.aboutDetail {
+    color: #fefefe; }
+    footer article.aboutDetail h4 {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 22px; }
+    footer article.aboutDetail p {
+      font-size: 12px;
+      font-family: "Lato", sans-serif; }
+      footer article.aboutDetail p i {
+        margin-right: 17px;
+        font-size: 14px; }
+        footer article.aboutDetail p i:hover {
+          color: #fbca03;
+          cursor: pointer;
+          transition-duration: 0.5s; }
+    footer article.aboutDetail table img {
+      width: 60px;
+      margin: 2px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus img {
+      width: 40px;
+      margin: 7px;
+      cursor: pointer; }
+    footer article.aboutDetail table.Aboutus td {
+      margin-left: 2px; }
+      footer article.aboutDetail table.Aboutus td p {
+        margin: 8px; }
+        footer article.aboutDetail table.Aboutus td p:first-child {
+          font-family: "Raleway", sans-serif;
+          font-size: 10px;
+          margin-top: -3px; }
+        footer article.aboutDetail table.Aboutus td p:nth-child(2) {
+          font-size: 9px; }
+  footer .copy {
+    height: 60px;
+    background-color: #242424; }
+    footer .copy p {
+      margin: 0;
+      font-size: 11px;
+      font-family: "Raleway", sans-serif;
+      color: gray; }
+      footer .copy p span {
+        color: #fbca03; }
+
+main #Section1Portfolio {
+  background-image: url("../../Dis/Images/portfolio/section-bg-8.jpg");
+  background-position: top; }
+
+main #Section2Portfolio .listNav .nav-link {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  margin-left: 15px; }
+
+main #Section2Portfolio .listNav .active {
+  color: #fbca03;
+  position: relative; }
+  main #Section2Portfolio .listNav .active:after {
+    left: 13px;
+    margin: 5px 0;
+    width: 20px; }
+
+main #Section2Portfolio .Gallery .overlay img {
+  width: 30px; }
+  main #Section2Portfolio .Gallery .overlay img:nth-child(2) {
+    margin-left: 40px; }
+
+main #Section2Portfolio .Gallery figcaption {
+  margin-bottom: 25px; }
+  main #Section2Portfolio .Gallery figcaption h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    margin: 0; }
+    @media only screen and (max-width: 768px) and (min-width: 576px) {
+      main #Section2Portfolio .Gallery figcaption h4 {
+        font-size: 10px; } }
+  main #Section2Portfolio .Gallery figcaption p {
+    font-family: "Lato", sans-serif;
+    font-size: 13px; }
+    @media only screen and (max-width: 768px) and (min-width: 576px) {
+      main #Section2Portfolio .Gallery figcaption p {
+        font-size: 7px; } }
+
+main #Section2Portfolio .btn {
+  background-color: #fefefe;
+  margin: 30px 0; }

@@ -1,0 +1,194 @@
+@import "common.scss"; //import header nav footer
+@import "AboutUs.scss";
+@import "Blog.scss";
+@import "Contact.scss";
+
+
+main
+{
+    #Section1Home
+    {
+        @extend %First-section;
+        background-image: url(../../Dis/Images/index/section-bg-1.jpg) !important;
+        background-position: top;
+        background-size:cover;
+        height: 111vh;
+       
+
+        nav{
+            @extend %nav;
+           }
+        
+        article
+        {
+            
+           h1{font-size: 56px;}
+           .p2{font-family: $fontLato !important;width: 58%;font-size: 13px;}
+             
+            .btn
+            {
+                @extend %btn;
+                background-color: $white-color;
+                box-shadow: $box-shadow;
+                &:hover{background-color: $main-color;}
+                
+                @media only screen and(max-width:786px)
+                {
+                    &{width: 100% !important;}
+                }
+            }  
+        }
+       
+    }
+    
+    #Section2Home
+    {
+        @extend  #Section2AboutUs;
+    }
+    
+    #Section3Home
+    {
+        @extend  #Section6AboutUs;
+       background-image: url(../../Dis/Images/index/section-bg-4.jpg);
+        background-position: top;
+        height:auto;
+        article{
+            .btn
+            { @extend %btn;
+                background-color: $white-color;
+                box-shadow: $box-shadow;
+                    &:hover{background-color: $main-color;}
+
+            }
+        }
+        img{width: 400px;}
+        
+        @media only screen and(max-width:786px) and(min-width:576px)
+        {
+            .btn{width: 100% !important;}
+        }
+    }
+    
+    #Section4Home
+    {
+       article.title
+        {
+         @extend %article.title;  
+            display: inline-block;
+        }
+        h4:after
+        {
+            border: 1px solid black !important;
+        } 
+        
+        .sec3Fig
+        {
+            figure
+            { 
+                @extend %figure;
+            }
+            
+            .overlay
+            {
+                    @extend %overlayImg;
+                img{
+                    width: 30px;
+                    &:nth-child(2)
+                    {
+                        margin-left: 40px;
+                    }
+                }
+                p{
+                    font-size: 12px;
+                }
+                
+                h6{
+                    font-family: $fontRaleway;
+                }
+            }
+        }
+    }
+    
+    #Section5Home
+    {
+        @extend #Section3AboutUs;
+    }
+   
+    #Section6Home
+    { @extend  #Section6AboutUs;
+            .btn:hover{background-color: $main-color;}
+
+    article{
+            .btn
+            { @extend %btn;
+                background-color: $white-color;
+                box-shadow: $box-shadow;
+            }
+        ul{font-family:$fontLato; 
+                    font-size: 13px;}
+        }
+        
+        @media only screen and(max-width:786px)
+        {
+            .btn{width: 100% !important;}
+        }
+    }
+    
+    #Section7Home
+    {
+        height:auto;
+        background: 
+            {image: url(../../Dis/Images/index/section-bg-19.jpg);
+               position: bottom;
+                size: cover; 
+             };
+        @extend #Section3Home;
+        .cirImg
+        {  display: inline-block;
+            width:30px;
+            height:30px;
+            border: 1px solid;
+            border-radius: 50%;
+            &:hover{
+                transition-duration: 0.5s;
+                background-color: $main-color;border-color:$main-color ;
+                i{color: aliceblue;}
+            }
+            
+        }
+        
+        .btn:hover{background-color: $main-color;}
+        .supParagraph
+        {
+            font-size: 11px;
+            margin-left: 34px;
+        }
+            
+            span{font-size: 13px;}
+    }
+    
+    #Section8Home
+    {
+      @extend #Section2Home;  
+      @extend #Section2Blog;  
+    }
+    
+    #Section9Home
+    {
+       @extend #Section5AboutUs; 
+        .title
+        {
+            h4:after{left: 47%;}
+        }
+    }
+    
+    #Section10Home
+    {
+        @extend #Section2Contact;
+        padding-bottom: 0;
+    }
+    #Section11Home
+    {
+        @extend #Section3Contact;
+    }
+}
